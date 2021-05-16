@@ -1,0 +1,44 @@
+# Config file for BuildTest by kenygamer;
+
+# Admins/OPs
+admin-list:
+- "XxKenyGamerxX"
+
+# Hours to complete build test after began
+time-frame: 5
+
+# Seconds interval to check build tests
+update-interval: 30
+
+# Path to save build tests
+data-path: "/var/www/html/"
+
+# Enable always day
+always-day: true
+
+# Attempts to run build test
+build-test-attempts: 3
+
+# Enable chat anti-spam
+anti-spam: true
+
+# Minimum delay between a message and other
+anti-spam-seconds: 5
+
+# Expiry time of a non-startded build test
+max-start: 48
+
+# Builds
+builds:
+  medieval_house:
+    title: "Medieval house"
+    instructions: "Medieval style house, +25x25 size and 2+ floors."
+    image: "https://i.cubeupload.com/BnjM1c.jpeg"
+  modern_house:
+    title: "Modern house"
+    instructions: "Modern style house, +30x30 size and 3+ floors."
+    image: "https://i.cubeupload.com/nEQPBE.jpeg"
+  fantasy_house:
+    title: "Fantasy house"
+    instructions: "Fantasy style house, +15x15 size and 2+ floors. The rest of the plot cannot be empty."
+    image: "https://i.cubeupload.com/wQrT5D.jpeg"

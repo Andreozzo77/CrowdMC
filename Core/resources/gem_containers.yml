@@ -1,0 +1,1577 @@
+---
+
+# Tier I. Grand Gem -> Atlas Gem (gkit)
+# Tier II. Fire Gem -> Hestia Gem (gkit)
+# Tier III. Platinum Gem -> Hephaestus Gem (gkit)
+# Tier IV. Hades Gem (gkit)
+# Tier V. Zeus Gem -> Tartarus Gem (gkit)
+# Tier VI. Poseidon Gem (gkit)
+# Tier VII. Zeus Gem (gkit)
+# Supreme Gem
+# Voter Gem (gkit)
+# Weekly Voter Gem (gkit)
+# Monthly Voter Gem (gkit)
+# Supreme Voter Gem (gkit)
+
+# Atlas Gem (formerly Grand Grand)
+atlas_gem:
+  name: "&9Atlas Gem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&9Atlas &bHelmet"
+        enchants:
+          protection: 7
+          unbreaking: 3
+          overload: 7
+          angel: 1
+          focused: 1
+          revive: 2
+          soulbound: 1
+    -
+      diamond_chestplate:
+        name: "&l&9Atlas &bChestplate"
+        enchants:
+          protection: 7
+          unbreaking: 3
+          remedy: 1
+          overload: 7
+          angelic: 1
+          defense: 1
+          autorepair: 1
+          soulbound: 1
+    -
+      diamond_leggings:
+        name: "&l&9Atlas &bLeggings"
+        enchants:
+          protection: 7
+          unbreaking: 3
+          overload: 7
+          shield: 2
+          endershift: 1
+          soulbound: 1
+          autorepair: 3
+    -
+      diamond_boots:
+        name: "&l&9Atlas &bBoots"
+        enchants:
+          protection: 7
+          unbreaking: 3
+          gears: 3
+          springs: 3
+          overload: 7
+          obsidianshield: 1
+          tank: 2
+          soulbound: 1
+    -
+      diamond_sword:
+        name: "&l&9Atlas &bSword"
+        enchants:
+          sharpness: 5
+          unbreaking: 5
+          freeze: 1
+          skillskwipe: 1
+          critical: 1
+          cripple: 1
+          rage: 2
+    -
+      diamond_axe:
+        name: "&l&9Atlas &bAxe"
+        enchants:
+          sharpness: 5
+          unbreaking: 3
+          drain: 1
+          gravity: 1
+          poison: 1
+          lifesteal: 4
+          blessed: 2
+    - 
+      diamond_pickaxe:
+        name: "&l&9Atlas &bPickaxe"
+        enchants:
+          efficiency: 4
+          unbreaking: 3
+          grind: 5
+          haste: 5
+          autorepair: 3
+    -
+      diamond_shovel:
+        name: "&l&9Atlas &bShovel"
+        enchants:
+          efficiency: 4
+          unbreaking: 3
+          haste: 4
+          driller: 4
+    -
+      bow:
+        name: "&l&9Atlas &bBow"
+        enchants:
+          unbreaking: 4
+          bowlifesteal: 1
+    -
+      diamond_apple:
+        count: 4
+    -
+      uncommon_book:
+        count: 10
+    -
+      lucky_block:
+        count: 20
+    -
+      common_book:
+        count: 35
+        
+# Hestia Gem (formerly Fire Legendary Gem)
+hestia_gem:
+  name: "&cHestia Gem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&cHestia &bHelmet"
+        enchants:
+          protection: 8
+          unbreaking: 4
+          overload: 8
+          autorepair: 4
+          angel: 2
+          focused: 2
+          implants: 1
+          divine: 1
+          antitoxin: 1
+          glowing: 1
+    -
+      diamond_chestplate:
+        name: "&l&cHestia &bChestplate"
+        enchants:
+          protection: 8
+          unbreaking: 4
+          overload: 8
+          soulbound: 3
+          revive: 2
+          autorepair: 4
+          angel: 2
+          antiknockback: 1
+          angelic: 2
+          defense: 1
+          divine: 1
+    -
+      diamond_leggings:
+        name: "&l&cHestia &bLeggings"
+        enchants:
+          protection: 8
+          unbreaking: 4
+          overload: 8
+          soulbound: 3
+          revive: 3
+          autorepair: 4
+          angel: 2
+          gears: 3
+          springs: 3
+          divine: 1
+    -
+      diamond_boots:
+        name: "&l&cHestia &bBoots"
+        enchants:
+          protection: 8
+          unbreaking: 4
+          overload: 8
+          soulbound: 3
+          revive: 3
+          autorepair: 4
+          angel: 2
+          gears: 3
+          springs: 3
+          divine: 1
+    -
+      diamond_sword:
+        name: "&l&cHestia &bSword"
+        enchants:
+          sharpness: 7
+          freeze: 2
+          bleeding: 2
+          skillswipe: 3
+          cripple: 3
+          critical: 2
+          rage: 3
+          blessed: 3
+          shockwave: 2
+    -
+      diamond_axe:
+        name: "&l&cHestia &bAxe"
+        enchants:
+          sharpness: 7
+          freeze: 7
+          bleeding: 1
+          skillswipe: 2
+          cripple: 1
+          rage: 2
+          blessed: 1
+          shockwave: 1
+    - 
+      diamond_pickaxe:
+        name: "&l&cHestia &bPickaxe"
+        enchants:
+          efficiency: 5
+          unbreaking: 4
+          grind: 6
+          haste: 5
+          soulbound: 1
+          moneyfarm: 5
+          autorepair: 3
+          minerluck: 1
+    -
+      diamond_shovel:
+        name: "&l&cHestia &bShovel"
+        enchants:
+          efficiency: 5
+          unbreaking: 4
+          soulbound: 1
+          haste: 4
+          driller: 4
+          moneyfarm: 3
+    -
+      bow:
+        name: "&l&cHestia &bBow"
+        enchants:
+          unbreaking: 4
+          power: 1
+          bowlifesteal: 1
+          longshot: 1
+    -
+      diamond_apple:
+        count: 5
+    -
+      lucky_block:
+        count: 32
+    -
+      uncommon_book:
+        count: 20
+    -
+      common_book:
+        count: 30
+    -
+      rare_book:
+        count: 5
+        
+# Hephaestus Gem (formerly Platinum Legendary Gem)
+hephaestus_gem:
+  name: "&7Hephaestus Gem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&7Hephaestus &bHelmet"
+        enchants:
+          protection: 8
+          unbreaking: 5
+          revive: 1
+          soulbound: 1
+          divine: 1
+          overload: 8
+          autorepair: 1
+          angelic: 2
+          focused: 3
+          implants: 2
+          angel: 2
+    -
+      diamond_chestplate:
+        name: "&l&7Hephaestus &bChestplate"
+        enchants:
+          protection: 8
+          unbreaking: 5
+          revive: 3
+          soulbound: 1
+          divine: 1
+          overload: 8
+          autorepair: 1
+          antiknockback: 1
+    -
+      diamond_leggings:
+        name: "&l&7Hephaestus &bLeggings"
+        enchants:
+          protection: 5
+          unbreaking: 1
+          revive: 1
+          soulbound: 1
+          divine: 1
+          overload: 8
+          autorepair: 1
+          shield: 2
+          autorepair: 1
+          angelic: w2
+    -
+      diamond_boots:
+        name: "&l&7Hephaestus &bBoots"
+        enchants:
+          protection: 8
+          unbreaking: 5
+          revive: 1
+          soulbound: 1
+          divine: 1
+          overload: 8
+          autorepair: 1
+          springs: 2
+          gears: 1
+          autorepair: 1
+          endershift: 1
+    -
+      diamond_sword:
+        name: "&l&7Hephaestus &bSword"
+        enchants:
+          sharpness: 4
+          unbreaking: 1
+          soulbound: 1
+          corrupt: 1
+          rage: 2
+          blessed: 1
+          excalibur: 1
+          autorepair: 1
+    -
+      diamond_axe:
+        name: "&l&7Hephaestus Axe"
+        enchants:
+          sharpness: 4
+          unbreaking: 1
+          soulbound: 1
+          corrupt: 1
+          rage: 2
+          blessed: 1
+          insanity: 1
+          autorepair: 1
+    - 
+      diamond_pickaxe:
+        name: "&l&7Hephaestus &bPickaxe"
+        enchants:
+          efficiency: 6
+          unbreaking: 5
+          grind: 7
+          keyplus: 1
+          haste: 5
+          soulbound: 2
+          moneyfarm: 7
+          autorepair: 3
+          minerluck: 1
+    -
+      diamond_shovel:
+        name: "&l&7Hephaestus &bShovel"
+        enchants:
+          efficiency: 6
+          unbreaking: 5
+          soulbound: 2
+          haste: 5
+          driller: 5
+          moneyfarm: 4
+    -
+      bow:
+        name: "&l&7Hephaestus &bBow"
+        enchants:
+          unbreaking: 4
+          power: 1
+          bowlifesteal: 1
+          headhunter: 1
+          longshot: 1
+          piercing: 1
+    -
+      rainbow_lucky_block: 
+        count: 3
+    -
+      lucky_block:
+        count: 32
+    -
+      uncommon_book:
+        count: 30
+    -
+      rare_book:
+        count: 10
+
+# Hades Gem (new)
+hades_gem:
+  name: "&8Hades Gem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&8Hades &bHelmet"
+        enchants:
+          protection: 8
+          unbreaking: 5
+          soulbound: 2
+          revive: 2
+          autorepair: 2
+          divine: 1
+          angelic: 1
+          focused: 2
+          overload: 9
+          autorepair: 1
+    -
+      diamond_chestplate:
+        name: "&l&8Hades &bChestplate"
+        enchants:
+          protection: 8
+          unbreaking: 5
+          soulbound: 2
+          revive: 2
+          autorepair: 2
+          divine: 1
+          angel: 1
+          antiknockback: 1
+          defense: 1
+          overload: 9
+          autorepair: 1
+    -
+      diamond_leggings:
+        name: "&l&8Hades &bLeggings"
+        enchants:
+         protection: 8
+         unbreaking: 5
+         soulbound: 2
+         revive: 2
+         autorepair: 1
+         divine: 1
+         angel: 1
+         shield: 2
+         angelic: 1
+         overload: 9
+         autorepair: 1
+    -
+      diamond_boots:
+        name: "&l&8Hades &bBoots"
+        enchants:
+          protection: 8
+          unbreaking: 5
+          soulbound: 2
+          revive: 2
+          autorepair: 2
+          divine: 1
+          angel: 1
+          gears: 2
+          springs: 1
+          overload: 9
+          autorepair: 1
+    -
+      diamond_sword:
+        name: "&l&8Hades &bSword"
+        enchants:
+          sharpness: 5
+          unbreaking: 2
+          soulbound: 2
+          corrupt: 2
+          rage: 3
+          blessed: 2
+          excalibur: 2
+          shockwave: 2
+          autorepair: 2
+    -
+      diamond_axe:
+        name: "&l&8Hades &bAxe"
+        enchants:
+          sharpness: 5
+          unbreaking: 2
+          soulbound: 2
+          corrupt: 2
+          rage: 3
+          blessed: 2
+          insanity: 2
+          critical: 1
+          autorepair: 2
+          drain: 4
+    -
+      diamond_pickaxe:
+        name: "&l&8Hades &bPickaxe"
+        enchants:
+          efficiency: 7
+          unbreaking: 6
+          grind: 8
+          keyplus: 2
+          haste: 5
+          soulbound: 2
+          moneyfarm: 7
+          autorepair: 4
+          treasurehunter: 1
+    -
+      bow:
+        name: "&l&8Hades &bBow"
+        enchants:
+          unbreaking: 5
+          power: 2
+          bowlifesteal: 2
+          headhunter: 1
+          longshot: 1
+    -
+      diamond_apple:
+        count: 15
+    -
+      rainbow_lucky_block:
+        count: 6
+    -
+      lucky_block:
+        count: 48
+    -
+      mythic_book:
+        count: 5
+    -
+      rare_book:
+        count: 20
+    -
+      uncommon_book:
+        count: 25
+    -
+      common_book:
+        count: 22
+# Tartarus Gem (formerly Zeus Gem)
+tartarus_gem:
+  name: "&eTarta&6rus Gem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&eTarta&6rus &bHelmet" 
+        enchants:
+          protection: 9
+          autorepair: 6
+          overload: 10
+          doomed: 2
+          unbreaking: 6
+          armored: 4
+          tank: 4
+          shielded: 4
+          defense: 3
+    -
+       diamond_chestplate:
+         name: "&l&eTarta&6rus &bChestplate"
+         enchants:
+           protection: 9
+           autorepair: 6
+           overload: 10
+           doomed: 2
+           unbreaking: 6
+           armored: 3
+           tank: 3
+           shielded: 3
+           antitrap: 1
+    -
+      diamond_leggings:
+        name: "&l&eTarta&6rus &bLeggings"
+        enchants:
+          protection: 9
+          autorepair: 6
+          overload: 10
+          doomed: 2
+          unbreaking: 6
+          armored: 3
+          tank: 3
+          shielded: 3
+          naturewrath: 3
+    -
+      diamond_boots:
+        name: "&l&eTarta&6rus &bBoots"
+        enchants:       
+          protection: 10
+          autorepair: 6
+          overload: 10
+          doomed: 2
+          unbreaking: 6
+          armored: 3
+          tank: 3
+          shielded: 3
+          frostwalker: 1
+          gears: 3
+          springs: 3
+    -
+      diamond_sword:
+        name: "&l&eTarta&6rus &bSword"
+        enchants:
+          sharpness: 9
+          hellforged: 1
+          freeze: 3
+          skillswipe: 5
+          hex: 1
+          bleeding: 3
+          tornado: 1
+          cripple: 4
+          critical: 1
+          whirl: 1
+          theft: 1
+          unbreaking: 6
+    -
+      diamond_axe:
+        name: "&l&eTarta&6rus &bAxe"
+        enchants:
+          sharpness: 9
+          unbreaking: 6
+          hellforged: 1
+          excalibur: 2
+          cripple: 3
+          critical: 3
+          bleeding: 3
+          skillswipe: 3
+          drain: 6
+    -
+      diamond_pickaxe:
+        name: "&l&eTarta&6rus &bPickaxe"
+        enchants:
+          efficiency: 8
+          unbreaking: 7
+          fortune: 2
+          grind: 9
+          keyplus: 3
+          haste: 5
+          soulbound: 3
+          moneyfarm: 9
+          autorepair: 6
+          treasurehunter: 2
+    -
+      diamond_shovel:
+        name: "&l&eTarta&6rus &bShovel"
+        enchants:
+          efficiency: 8
+          unbreaking: 7
+          soulbound: 3
+          haste: 5
+          driller: 5
+          energizing: 4
+          moneyfarm: 7
+    -
+      bow:
+        name: "&l&eTarta&6rus &bBow"
+        enchants:
+          unbreaking: 5
+          power: 3
+          autoaim: 1
+          bowlifesteal: 3
+          headhunter: 1
+          missile: 1
+          longshot: 1
+    -
+      diamond_apple:
+        count: 20
+    -
+      rainbow_lucky_block:
+        count: 10
+    -
+      mythic_book:
+        count: 15
+    -
+      rare_book:
+        count: 28
+    -
+      uncommon_book:
+        count: 30
+    -
+      common_book:
+        count: 50
+
+# Poseidon Gem (new)
+poseidon_gem:
+  name: "&1Poseidon Gem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&1Poseidon &bHelmet"
+        enchants:
+          protection: 9
+          autorepair: 7
+          overload: 10
+          doomed: 2
+          unbreaking: 7
+          nightowl: 1
+          armored: 4
+          tank: 4
+          shielded: 4
+          soulbound: 4
+          implants: 4
+          clarity: 1
+          angel: 2
+          antiknockback: 2
+          angelic: 2
+          defense: 1
+          shrink: 3
+    -
+      diamond_chestplate:
+        name: "&l&1Poseidon &bChestplate"
+        enchants:
+          protection: 10
+          autorepair: 7
+          overload: 10
+          doomed: 2
+          unbreaking: 7
+          armored: 4
+          tank: 4
+          shielded: 4
+          antitrap: 1
+          soulbound: 4
+          angel: 2
+          antiknockback: 1
+          angelic: 2
+          defense: 1
+          shrink: 3
+    -
+      diamond_leggings:
+        name: "&l&1Poseidon &bLeggings"
+        enchants:
+          protection: 9
+          autorepair: 7
+          overload: 10
+          doomed: 2
+          unbreaking: 7
+          armored: 4
+          tank: 4
+          shielded: 4
+          soulbound: 4
+          angel: 2
+          antiknockback: 2
+          angelic: 2
+          defense: 1
+          shrink: 2
+    -
+      diamond_boots:
+        name: "&l&1Poseidon &bBoots"
+        enchants: 
+          protection: 9
+          autorepair: 7
+          overload: 10
+          doomed: 2
+          unbreaking: 7
+          armored: 4
+          tank: 4
+          shielded: 4
+          frostwalker: 1
+          soulbound: 4
+          angel: 2
+          antiknockback: 1
+          angelic: 2
+          defense: 1
+          shrink: 3
+    -
+      diamond_sword:
+        name: "&l&1Poseidon &bSword"
+        enchants:
+          sharpness: 9
+          hellforged: 2
+          freeze: 4
+          skillswipe: 9
+          hex: 3
+          antitheft: 2
+          bleeding: 4
+          tornado: 1
+          cripple: 4
+          critical: 3
+          whirl: 1
+          soulbound: 4
+          autorepair: 7
+          unbreaking: 7
+    -
+      diamond_axe:
+        name: "&l&1Poseidon &bAxe"
+        enchants:
+          sharpness: 9
+          hellforged: 1
+          freeze: 3
+          skillswipe: 5
+          hex: 1
+          antitheft: 1
+          bleeding: 3
+          tornado: 1
+          cripple: 4
+          critical: 3
+          whirl: 1
+          soulbound: 4
+          drain: 7
+          unbreaking: 7
+    -
+      diamond_pickaxe:
+        name: "&l€1Poseidon Pickaxe"
+        enchants:
+          efficiency: 9
+          unbreaking: 7
+          fortune: 2
+          grind: 10
+          keyplus: 4
+          haste: 5
+          soulbound: 4
+          moneyfarm: 10
+          autorepair: 6
+          treasurehunter: 2
+          minerluck: 4
+    -
+      diamond_shovel:
+        name: "&l€1Poseidon Shovel"
+        enchants:
+          efficiency: 9
+          unbreaking: 7
+          soulbound: 4
+          haste: 	5
+          driller: 5
+          quickening: 5
+          moneyfarm: 9
+    -
+      bow:
+        name: "&l€1Poseidon Bow"
+        enchants:
+          unbreaking: 5
+          power: 4
+          infinity: 1
+          autoaim: 1
+          bowlifesteal: 4
+          headhunter: 1
+          missile: 1
+          longshot: 1
+
+# Zeus Gem (new)
+zeus_gem:
+  name: "§gZe&6us &bGem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l§gZe&6us &bHelmet"
+        enchants:
+          protection: 10
+          autorepair: 8
+          overload: 10
+          doomed: 2
+          unbreaking: 8
+          nightowl: 1
+          armored: 4
+          tank: 4
+          shielded: 4
+          soulbound: 5
+          implants: 4
+          clarity: 1
+          angel: 2
+          antiknockback: 1
+          angelic: 2
+          defense: 3
+          shrink: 5
+    -
+      diamond_chestplate:
+        name: "&l§gZe&6us &bChestplate"
+        enchants:
+          protection: 10
+          autorepair: 8
+          overload: 10
+          doomed: 2
+          unbreaking: 8
+          solarpowdered: 1
+          armored: 4
+          tank: 4
+          shielded: 4
+          antitrap: 1
+          soulbound: 5
+          implants: 4
+          clarity: 1
+          angel: 2
+          antiknockback: 1
+          angelic: 2
+          defense: 2
+          shrink: 5
+    -
+      diamond_leggings:
+        name: "&l§gZe&6us &bLeggings"
+        enchants:
+          protection: 10
+          autorepair: 8
+          overload: 10
+          doomed: 2
+          unbreaking: 8
+          armored: 4
+          tank: 4
+          shielded: 4
+          soulbound: 5
+          implants: 4
+          clarity: 1
+          angel: 2
+          antiknockback: 1
+          angelic: 5
+          defense: 3
+          shrink: 5
+          naturewrath: 5
+    -
+      diamond_boots:
+        name: "&l§gZe&6us &bBoots"
+        enchants:
+          protection: 10
+          autorepair: 8
+          overload: 10
+          doomed: 2
+          unbreaking: 8
+          armored: 4
+          tank: 4
+          shielded: 4
+          frostwalker: 1
+          soulbound: 5
+          implants: 4
+          clarity: 1
+          angel: 2
+          antiknockback: 1
+          angelic: 5
+          defense: 3
+          shrink: 5
+          gears: 3
+          springs: 3
+    -
+      diamond_sword:
+        name: "&l§gZe&6us &bSword"
+        enchants:
+          sharpness: 10
+          hellforged: 3
+          freeze: 4
+          skillswipe: 7
+          hex: 3
+          antitheft: 2
+          bleeding: 5
+          tornado: 1
+          cripple: 4
+          critical: 5
+          whirl: 1
+          soulbound: 5
+          autorepair: 8
+    -
+      diamond_axe:
+        name: "&l§gZe&6us &bAxe" 
+        enchants:
+          sharpness: 9
+          hellforged: 1
+          freeze: 3
+          skillswipe: 6
+          hex: 2
+          antitheft: 1
+          bleeding: 3
+          tornado: 1
+          cripple: 4
+          critical: 3
+          whirl: 1
+          soulbound: 5
+          drain: 8
+    -
+      diamond_pickaxe:
+        name: "&l§gZe&6us &bPickaxe" 
+        enchants:
+          efficiency: 10
+          unbreaking: 8
+          fortune: 3
+          grind: 11
+          haste: 5
+          energizing: 5
+          smelting: 1
+          keyplus: 5
+          treasurehunter: 5
+          autorepair: 8
+          haste: 5
+          moneyfarm: 11
+          treasurehunter: 3
+          minerluck: 5
+          soulbound: 5
+    -
+      diamond_pickaxe:
+        name: "&l§gZe&6us &bShovel" 
+        enchants:
+          efficiency: 10
+          unbreaking: 8
+          haste: 5
+          smelting: 1
+          driller: 5
+          autorepair: 7
+          disarmprotection: 1
+          soulbound: 5
+          moneyfarm: 10
+    -
+      bow:
+        name: "&l§gZe&6us &bBow" 
+        enchants:
+          unbreaking: 5
+          infinity: 2
+          power: 5
+          autoaim: 1
+          bowlifesteal: 5
+          soulbound: 5
+          longshot: 5
+          headhunter: 1
+          shuffle: 1
+          molotov: 1
+    -
+      diamond_apple:
+        count: 32
+    -
+      rainbow_lucky_block:
+        count: 32
+    -
+      lucky_block:
+        count: 64
+    -
+      mythic_book:
+        count: 32
+    -
+      rare_book:
+        count: 48
+    -
+      uncommon_book:
+        count: 32
+    -
+      common_book:
+        count: 64
+# Voter Gem
+voter_gem:
+  name: "&eVoter Gem"
+  notier: true
+  kit:
+    -
+      casino_coin: []
+    -
+      diamond_helmet:
+        name: "&eVoter &bHelmet"
+        enchants:
+          protection: 3
+          unbreaking: 1
+          overload: 1
+          glowing: 1
+          focused: 1
+    -
+      diamond_chestplate:
+        name: "&eVoter &bChestplate"
+        enchants:
+          protection: 3
+          unbreaking: 1
+          armored: 1
+          autorepair: 1
+    -
+      diamond_leggings:
+        name: "&eVoter &bLeggings"
+        enchants:
+          protection: 3
+          unbreaking: 1
+          overload: 1
+          nutrition: 1
+    -
+      diamond_boots:
+        name: "&eVoter &bBoots"
+        enchants:
+          protection: 3
+          unbreaking: 1
+          springs: 2
+          angel: 1
+          obsidianshield: 1
+    -
+      diamond_sword:
+        name: "&eVoter &bSword"
+        enchants:
+          sharpness: 1
+          unbreaking: 1
+          lifesteal: 1
+          blind: 1
+          autorepair: 1
+    -
+      diamond_pickaxe:
+        name: "&eVoter &bPickaxe"
+        enchants:
+          efficiency: 1
+          unbreaking: 1
+          haste: 1
+          driller: 1
+          moneyfarm: 1
+    -
+      diamond_axe:
+        name: "&eVoter &bAxe"
+        enchants:
+          sharpness: 1
+          unbreaking: 1
+          rage: 1
+          blessed: 1
+          lifesteal: 1
+    -
+      bow:
+        name: "&eVoter &bBow"
+        enchants:
+          unbreaking: 1
+          longshot: 1
+    -
+      vote_key:
+        count: 1
+    -
+      enchanted_golden_apple:
+        count: 3
+    -
+      lucky_block:
+        count: 10
+    -
+      arrow:
+        count: 12
+# Supreme Gem
+supreme_gem:
+  name: "&bSupreme Gem"
+  notier: true
+  kit:
+    -
+      book:
+        enchants:
+          flamecircle: 5
+    -
+      book:
+        enchants:
+          hellforged: 5
+    -
+      book:
+        enchants:
+          enderman: 6
+    -
+      book:
+        enchants:
+          lightning: 9
+    -
+      book:
+        enchants:
+          compress: 1
+
+# Weekly Voter Gem
+weekly_voter_gem:
+  name: "&6Weekly &eVoter &bGem"
+  notier: true
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&6Weekly &eVoter &bHelmet"
+        enchants:
+          protection: 5
+          unbreaking: 2
+          molten: 1
+          enlighten: 1
+          glowing: 1
+          overload: 2
+          soulbound: 1
+    -
+      diamond_chestplate:
+        name: "&l&6Weekly &eVoter &bChestplate"
+        enchants:
+          protection: 5
+          unbreaking: 2
+          berseker: 1
+          revive: 3
+          overload: 2
+          soulbound: 1
+          angelic: 2
+    -
+      diamond_leggings:
+        name: "&l&6Weekly &eVoter &bLeggings"
+        enchants:
+          protection: 5
+          unbreaking: 2
+          overload: 2
+          soulbound: 1
+          angel: 2
+          defense: 1
+          endershift: 3
+    -
+      diamond_boots:
+        name: "&l&6Weekly &eVoter &bBoots"
+        enchants:
+          protection: 5
+          unbreaking: 2
+          overload: 2
+          soulbound: 1
+          frozen: 1
+          gears: 2
+          springs: 2
+    -
+      diamond_sword:
+        name: "&l&6Weekly &eVoter &bSword"
+        enchants:
+          sharpness: 5
+          unbreaking: 5
+          critical: 1
+          lifesteal: 4
+          drain: 1
+          curse: 2
+          blind: 2
+    -
+      diamond_axe:
+        name: "&l&6Weekly &eVoter &bAxe"
+        enchants:
+          sharpness: 5
+          unbreaking: 5
+          obliterate: 1
+          gravity: 1
+          autorepair: 1
+          blessed: 2
+          poison: 2
+          rage: 2
+    -
+      diamond_pickaxe:
+        name: "&l&6Weekly &eVoter &bPickaxe"
+        enchants:
+          efficiency: 3
+          unbreaking: 3
+          moneyfarm: 4
+          grind: 1
+          soulbound: 1
+          haste: 3
+          autorepair: 1
+          energizing: 1
+    -
+      diamond_shovel:
+        name: "&l&6Weekly &eVoter &bShovel"
+        enchants:
+          efficiency: 3
+          unbreaking: 2
+          grind: 2
+          haste: 2
+          autorepair: 1
+          soulbound: 1
+          smelting: 1
+    -
+      bow:
+        name: "&l&6Weekly &eVoter &bBow"
+        enchants:
+          power: 2
+          bowlifesteal: 1
+          longshot: 2
+          soulbound: 1
+    -
+      golden_apple:
+        count: 5
+    -
+      enchanted_golden_apple:
+        count: 5
+    -
+      lucky_block:
+        count: 24
+    -
+      common_book:
+        count: 5
+    -
+      uncommon_book:
+        count: 2
+    -
+      rare_book:
+        count: 1
+          
+# Monthly Voter Gem
+supreme_voter_gem:
+  notier: true
+  name: "&6Monthly &eVoter &bGem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&6Monthly &eVoter &bHelmet"
+        enchants:
+          protection: 10
+          unbreaking: 8
+          overload: 10
+          soulbound: 3
+          divine: 2
+          shrink: 1
+          endershift: 3
+          defense: 3
+          implants: 2
+          focused: 2
+          molten: 1
+          revive: 2
+    -
+      diamond_chestplate:
+        name: "&l&6Monthly &eVoter &bChestplate"
+        enchants:
+          protection: 10
+          unbreaking: 8
+          overload: 10
+          soulbound: 3
+          heavy: 5
+          antitrap: 1
+          adhesive: 1
+          flamecircle: 1
+          shrink: 1
+          antiknockback: 1
+          evasion: 4
+    -
+      diamond_leggings:
+        name: "&l&6Monthly &eVoter &bLeggings"
+        enchants:
+          protection: 10
+          unbreaking: 8
+          overload: 10
+          soulbound: 3
+          tank: 5
+          shrink: 1
+          angelic: 2
+          berseker: 1
+          revive: 2
+          shield: 2
+          obsidianshield: 1
+    -
+      diamond_boots:
+        name: "&l&6Monthly &eVoter &bBoots"
+        enchants:
+          protection: 10
+          unbreaking: 8
+          overload: 10
+          soulbound: 3
+          armored: 5
+          gears: 3
+          springs: 3
+          shrink: 1
+          cursed: 2
+          doomed: 3
+          angel: 1
+    -
+      diamond_sword:
+        name: "&l&6Monthly &eVoter &bSword"
+        enchants:
+          sharpness: 8
+          unbreaking: 6
+          soulbound: 3
+          disarming: 5
+          freeze: 3
+          disarmprotection: 2
+          blind: 3
+          lifesteal: 5
+          drain: 3
+          critical: 4
+          curse: 3
+          excalibur: 3
+    -
+      diamond_axe:
+        name: "&l&6Monthly &eVoter &bAxe"
+        enchants:
+          sharpness: 8
+          unbreaking: 6
+          soulbound: 3
+          autorepair: 5
+          skillswipe: 4
+          disarmor: 5
+          disaarmorprotection: 2
+          poison: 4
+          wither: 4
+          cripple: 3
+          autorepair: 5
+          hellforged: 1
+    -
+      diamond_pickaxe:
+        name: "&l&6Monthly &eVoter &bPickaxe"
+        enchants:
+          efficiency: 9
+          unbreaking: 6
+          grind: 9
+          moneyfarm: 8
+          kyeplus: 2
+          soulbound: 2
+          treasurehunter: 3
+    -
+      diamond_shovel:
+        name: "&l&6Monthly &eVoter &bShovel"
+        enchants:
+          efficiency: 8
+          unbreaking: 5
+          grind: 6
+          minerluck: 1
+          haste: 4
+          autorepair: 3
+          energizing: 3
+    -
+      bow:
+        name: "&l&6Monthly &eVoter &bBow"
+        enchants:
+          power: 3
+          infinity: 1
+          bowlifesteal: 2
+          cowlauncher: 1
+          blaze: 1
+    -
+      golden_apple:
+        count: 24
+    -
+      enchanted_diamond_apple:
+        count: 10
+    -
+      lucky_block:
+        count: 48
+    -
+      rainbow_lucky_block:
+        count: 4
+    -
+      common_book:
+        count: 12
+    -
+      rare_book:
+        count: 9
+    -
+      mythic_book:
+        count: 2
+    -
+      uncommon_book:
+        count: 6
+        
+# Supreme Voter Gem
+supreme_voter_gem:
+  notier: true
+  name: "&cSupreme &6Voter &bGem"
+  kit:
+    -
+      diamond_helmet:
+        name: "&l&cSupreme &6Voter &bHelmet"
+        enchants:
+          protection: 10
+          unbreaking: 10
+          overload: 10
+          soulbound: 5
+          divine: 3
+          shrink: 5
+          endershift: 5
+          defense: 4
+          implants: 5
+          focused: 5
+          molten: 3
+          revive: 5
+    -
+      diamond_chestplate:
+        name: "&l&cSupreme &6Voter &bChestplate"
+        enchants:
+          protection: 10
+          unbreaking: 10
+          overload: 10
+          soulbound: 5
+          heavy: 5
+          antitrap: 1
+          adhesive: 1
+          flamecircle: 3
+          shrink: 3
+          antiknockback: 1
+          evasion: 7
+          tank: 5
+          remedy: 1
+          vitamins: 1
+          cloaking: 3
+          revive: 5
+    -
+      diamond_leggings:
+        name: "&l&cSupreme &6Voter &bLeggings" 
+        enchants:
+          protection: 10
+          unbreaking: 10
+          overload: 10
+          soulbound: 5
+          tank: 5
+          shrink: 5
+          angelic: 5
+          berseker: 3
+          revive: 5
+          shield: 5
+          obsidianshield: 1
+          armored: 5
+          naturewrath: 3
+          doomed: 3
+          revive: 5
+    -
+      diamond_boots:
+        name: "&l&cSupreme &6Voter &bBoots"
+        enchants:
+          protection: 10
+          unbreaking: 10
+          overload: 10
+          soulbound: 5
+          armored: 5
+          gears: 3
+          springs: 3
+          shrink: 3
+          cursed: 5
+          doomed: 3
+          angel: 3
+          tank: 5
+          warmer: 1
+          revive: 5
+          doomed: 3
+    -
+      diamond_sword:
+        name: "&l&cSupreme &6Voter &bSword"
+        enchants:
+          sharpness: 10
+          unbreaking: 8
+          soulbound: 8
+          disarming: 10
+          freeze: 5
+          disarmprotection: 5
+          blind: 5
+          lifesteal: 5
+          drain: 7
+          critical: 5
+          curse: 4
+          hellforged: 3
+          excalibur: 5
+          accuracy: 4
+          demise: 5
+          corrupt: 5
+    -
+      diamond_axe:
+        name: "&l&cSupreme &6Voter &bAxe"
+        enchants:
+          sharpness: 10
+          unbreaking: 8
+          soulbound: 5
+          autorepair: 7
+          skillswipe: 8
+          disarmor: 10
+          disarmorportection: 5
+          poison: 5
+          wither: 5
+          cripple: 5
+          autorepair: 7
+          shockwave: 5
+          bleeding: 7
+    -
+      diamond_pickaxe:
+        name: "&l&cSupreme &6Voter &bPickaxe" 
+        enchants:
+          efficiency: 10
+          unbreakinv: 8
+          grind: 11
+          moneyfarm: 13
+          keyplus: 6
+          soulbound: 5
+          treasurehunter: 5
+          quickening: 5
+    -
+      bow:
+        name: "&l&cSupreme &6Voter &bBow"
+        enchants:
+          efficiency: 10
+          unbreaking: 7
+          grind: 9
+          minerluck: 3
+          haste: 5
+          soulbound: 5
+          power: 5
+          infinity: 2
+          bowlifesteal: 5
+          autoaim: 1
+          cowlauncher: 3
+          longshot: 5
+    -
+      diamond_shovel:
+        name: "&l&cSupreme &6Voter &bShovel"
+        enchants:
+          efficiency: 10
+          unbreaking: 7
+          grind: 9
+          minerluck: 3
+          haste: 5
+          autorepair: 6
+          energizing: 5
+          soulbound: 5
+    -
+      enchanted_golden_apple:
+        count: 32
+    -
+      diamond_apple:
+        count: 18
+    -
+      lucky_block:
+        count: 64
+    -
+      rainbow_lucky_block:
+        count: 30
+    -
+      common_book:
+        count: 64
+    -
+      rare_book:
+        count: 32
+    -
+      uncommon_book:
+        count: 24
+    -
+      mythic_book:
+        count: 10
+...

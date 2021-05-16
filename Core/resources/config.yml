@@ -1,0 +1,1002 @@
+---
+# Configuration file for Core by kenygamer
+
+# rename-cost: The price to /rename an item, with EXP.
+rename-cost: 3000
+
+# transfer-server: The server to which players are transferred in restart, noted as [Ip: Port]
+transfer-server: [test.crowdmc.us.to, 19135]
+
+# server-ip: The current server IP
+server-ip: crowdmc.us.to
+
+# ranks: List of all the ranks on the server ordered from the lowest to the highest. 
+ranks:
+  - Member
+  - Shard 
+  - Harpy
+  - Fury
+  - Knight
+  - Barbarian
+  - Vip
+  - Mvp
+  - JuniorYT
+  - Ultra
+  - Legend
+  - Ultimate
+  - YouTuber
+  - Nightmare
+  - Universe
+  - Builder
+  - Trial
+  - Moderator
+  - HeadMod
+  - Admin
+  - HeadAdmin
+  - CoOwner
+  - Owner
+
+# staff-rank: From this rank upwards they are staff ranks, in accordance with the order in `ranks`
+staff-rank: Trial
+
+# tags: This is a list of tags that can be selected with /tag
+tags:
+  - "1T&6o&1x&6i&1c"
+  - "&4Try&1Hard"
+  - "&aN&300&aB"
+  - "&eKing"
+  - "&cQueen"
+  - "&2No&9Life"	
+  - "&6Slayer"
+  - "&dYeet"
+  - "&7Assassin"
+  - "&6AB&fOO&6SE"
+  - "&4Sa&fnta"
+  - "&2Leap&5Abuses"
+  - "&3Elite&04&2Ever"
+  - "&3Epic&aGames"
+  - "&5PvP&dGod"
+  - "&c#StayHome"
+  - "&4A&ctap"
+  - "&1Duel&9Master"
+  - "&7Spleef&fGod"
+  - "&5N&3A&dB"
+  - "&6Potato"
+  - "&2Grinder"
+  - "#&0&2Quarantined"
+  - "&fE-&dGirl"
+  - "&fE-&3Boy"
+  - "BigChungus"
+  - "&5HowDoYouPlay?"
+  - "&9#Social&2Distancing"
+  - "&gNerd"
+  - "&cTNTRun&fGod"
+  - "&6Derp&aMaster"
+  - "&a#NOT&9Verified"
+  - "&1#AreWeThere&cYet?"
+  - "&6War&9ped"
+  - "&cIm&6A&eBig&aKid&9Now&5!"
+  - "&cArco&6baleno"
+
+# tinkerer: These are the EXP given for each book, the format must be rare: EXP amount.
+#  The amount must be range min-max.
+tinkerer:
+  Common: "10-100"
+  Uncommon: "20-200"
+  Rare: "35-350"
+  Mythic: "50-500"
+ 
+# ceshop: This is the price of each custom enchant book. The format must be rarity: price.
+ceshop:
+  Common: 1000
+  Uncommon: 2000
+  Rare: 3500
+  Mythic: 5000
+
+# ender-crystals: This is the list of ender crystals for ornamental purposes.
+ender-crystals: 
+  - [45069, 39, -42502, hub]
+  - [45045, 39, -42502, hub]
+
+# reserved-enchants: List of enchants that cannot be upgraded with /ceupgrade.  Enter the names, not IDs.
+reserved-enchants: [forcefield, lightning, enderman, adhesive, demise, enlighted, compress, tokenmaster, jackhammer, explosive, frostbite, penetrating]
+
+# time: Time system related settings.
+time:
+  # time[days]: Days of the week, there must be at least one day for it to work.
+  days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  # time[sunrise]: The sunrise time, this time must logically be prior to sunset, limited to 00:00 to 23:59
+  sunrise: "6:00 AM"
+  # time[sunset]: Sunset time, this must be after sunrise, limited to 00:00 to 23:59
+  sunset: "6:00 PM"
+
+  # vote-apis: These are the vote APIs.  they are intentionally indexed, do not alter this internal ordering.
+  #   Placeholders: 
+  #     0: The first API has no special placeholders.
+  #     1: The second API requires placeholders {key} and {username}
+vote-apis:
+  0: "https://minecraftpocket-servers.com/api-vrc/"
+  1: "https://minecraftlist.org/api/v1/claim/{key}/{username}"
+
+# github: These are the settings relative to GitHub.
+github:
+  # github[credentials]: These are the authentication credendials, the user is before the at sign and
+  #   the password is after the at sign.
+  credentials: "[REDACTED]"
+  # github[repository]: This is the repository name.
+  repository: "bugs"
+  # github[issues-endpoint]: This is the endpoint for the GitHub API issues.     
+  issues-endpoint: "https://api.github.com/repos/{username}/{repository}/issues?state=all"
+
+# smtp: These are the SMTP (Server Mail Transfer Protocol) server settings, used for sending notifications
+#  exclusively.
+smtp:
+  # smtp[host]:
+  host: imap.mail.me.com
+  # smtp[port] This is the TLS port to connect.
+  #  Sidenote: SSL 465 does not work.
+  port: 993 #587
+  # smtp[username]: This is the username to authenticate to the SMTP server
+  username: "[REDACTED]"
+  # smtp[password]: This is the password to authenticate to the SMTP server
+  password: "[REDACTED]
+  # smtp[from]: This is the sender's email shown in each message.
+  from: "[REDACTED]"
+
+# season-reset: This is the date of the season reset used to display in the scorehud.  This date must be parsed by strtotime ()
+season-reset: "January 12th, 2021"
+
+# staff: This is the staff list, used for /staff
+staff:
+  # staff[list]: Xbox Live usernames
+  list: [XxKenyGamerxX]
+
+# resync-cooldown: Cooldown for /resync.
+resync-cooldown: 300
+
+# trade-offers: This is the wandering trader's offer list.  Each offer is denoted by a dash, 
+#  followed by buy (what the player must enter) and sell (what the villager returns).
+trade-offers:
+  -
+    buy:
+      lucky_block:
+        count: 4
+    sell:
+      rainbow_lucky_block:
+        count: 1
+
+# links-api:
+links-api:
+  url: "https://crowdmc.us.to/api/MCPEDiscord/MainController.php"
+  server-id: 0
+  server-key: "gF53Azjpwzf8r5q7atySEefEEzg9Eh8kNW3CFy7cZWkFAdNs5N6BqWjWwuXR5pK3"
+
+# list-api-key: This is the API key for the server list minecraftpocket-servers.com 
+list-api-key: LaXnWqAmodDHwBYOaBPMDeAydn4w2YvAlvM
+# list-2-api-key: This is the API key for the server list minecraftservers.org
+list-2-api-key: GKCZtKhjkgvAqum6nSuW
+# random-api-keys: These are the api keys from random.org.  These keys are utilized for true random number 
+#   generation, as opposed to pseudo number generation provided by built-in mt_rand().
+#   These are actually non-predictable. 
+random-api-keys: ["2cb049cc-c142-4010-aa59-ce2530652511", "7350d075-fbca-4e31-87ae-1c6941a12f8a", "c17fa4cf-0730-4214-b012-1f8d2e923130",
+	    "ffa0d63c-95fb-44c7-bba2-53c5f8b89927", "5b07d71e-549d-431f-a000-1260b11674d9", "f1670f94-53d6-42f2-8f6f-5a6a2fb6c15d",
+		"9e0ff216-8e5f-4698-bcc4-db01ebf7a45b", "9e0ff216-8e5f-4698-bcc4-db01ebf7a45b", "3300e91f-bc4a-4b06-a325-a258f3f412a8",
+		"936ac2b4-74e0-40b6-a5c6-ba8754ff2bd4", "ebe164b0-b531-4d4a-89ed-142f285c82ed", "6582ab82-514b-4f95-80c6-ccd8cd525ddb", "b97196b3-5966-46f9-8e41-483193c81135", "52cf7898-7bfd-4dbd-bac4-50754aefd15e", "955286a7-e8eb-4184-bd40-a023ecef6ddb", "5ab11364-26d5-450a-bc44-035076b2e648", "d1309ced-ddc1-44fc-8c17-1a0f721de94d", "f9096a93-9356-4797-94e2-5ef1ca266ba4", "6871afa3-7142-460f-9c00-12c1a75e1820", "84764b3e-c3ac-485e-8a20-e3baa8695192", "90525f25-e324-456e-ae7e-a30e64d31f4f", "30bfc361-e82a-4b10-9d27-ca244430ac46", "2c1aac7b-8cfa-49f5-ad09-2b27c0d8734b", "e750f107-c81a-4e54-bfe6-6dd85d15e3d8", "644991ca-b3f3-40f5-a833-165fd40efacd", "be1b9b65-084d-4995-b08e-58c1b1ae8ecf", "c9192ef6-d4af-4585-b9e7-704ab8cd0e48", "6e5833e3-b6dc-48a6-96b6-82c88e6cdcd9", "a2c3f106-a5e2-4302-bc3d-0dc3befa3862", "ec68ca18-4533-4e36-a045-7b508dd33610", "e5bacca4-b47f-4140-b45f-6443efa52601", "1e929cf6-9d9d-48d1-8476-6c64b9c13543", "e092e4cf-1213-47ce-8c50-d05135532bab", "ab8c31d9-fed8-430d-b683-b15030cf09e9", "59209fde-02b3-40b0-9e0e-f42fd5a3054a", "1be96c09-8ddd-447e-b55c-05beadbc0d1a", "0ba76e3f-bf02-4ecf-bbd8-ea29f4925263", "e4d13c20-6229-4e64-9f3f-444a0e764f4b", "394b591c-87d2-447c-854b-dacb65f56452", "ff80034c-f492-40db-a4da-90ad557f0c00", "331358e8-2a60-47ca-a67b-a3d5dd790421", "596a60cb-d7ac-4f49-9bc1-f267b62a0bad", "a02487cb-7e1a-4a3e-bf61-051314d53ae4", "8e9bfd1d-dfc4-409c-8271-35fd68e0ca87", "c09323a9-5bb5-411a-b835-8c9ae40286bc", "9b3c7736-237f-4d7f-8e3e-7017eab5b066", "83c34dfd-fba1-4248-aa35-a7c867921397", "c0201dd9-2bb6-44a9-bc75-ef8dc647957e", "6490ab11-ec0b-48e5-b8ce-ea7ce7d67948", "91b15cdf-60bf-4301-9d6a-2d6a7c84c58e", "2cecfac2-638e-4e07-b463-8e04c3e7b256", "76b7eebe-60aa-4583-bec5-290a5ba484a9", "fa75d53d-acb8-4e09-bb7e-d2fb673859db", "3379b95a-6c1c-4d69-a0fb-d717697131a8", "e34b663b-3f06-4282-8b53-012b546ea335", "c2a12326-8fb9-474b-afbc-de5174e71714", "43b58805-5f28-4ef8-9e53-c98ddc1628dc", "c11ff989-cd5a-46b8-98b4-d08271522166", "83139e4e-fe21-4459-bd1f-d81a17de2a99", "4e9615ca-e174-4d84-886c-3fd0dabe9534", "96522daa-9092-4f1f-9c33-fd45553e2c18", "96522daa-9092-4f1f-9c33-fd45553e2c18", "cd9f6e69-9af4-4dc3-91c2-870260a90512", "e78e006a-bbc4-498f-9127-aa94346225f3", "33d0cb09-4497-4a00-bfd2-92d462cb80fc", "3fa40910-244d-4d4d-be5a-20413f164f84", "3449b8d8-96e2-4cda-b108-e8d5efbb1051", "f5d9e600-f6f4-4940-b53a-60d15f3e4c24", "51f42483-5d8d-430b-be1a-6f4de2d9ec4d", "df798031-9b53-4b4a-93ab-68c178190436", "fa69f64f-c72b-440b-8b4c-225ba27b0688", "0349bb34-5f09-469d-86e1-6403460fc4b2", "df27bac4-8596-43d0-a190-69a5b3e76232", "84e1b490-3e1c-4a58-9cce-99908335b9d4", "c029ffb1-f7b7-432c-99b0-dc2713cd78f6", "ce85345f-66e1-4c0d-aa7f-1f7882c2e769", "df96c36d-4d77-4202-9aaf-ff68a2d7ff62", "533d044a-b928-4771-87b2-505d031a0be3", "c4ef8778-2408-4868-95e0-4ba927c22978", "75735730-6b3f-4290-a249-c2838e8e76a4", "5261e4dc-39db-4746-aa0e-f30df8bb0137", "d7a8fb1f-dd30-496a-af27-8818cf7395da", "ba3c5377-27ba-41b6-a7f4-7b9f88f32502", "7e9371a7-27ed-483b-a8ab-930375ceedeb", "b9b58dbc-319c-4349-9ea0-2652b2233a25", "56d0b975-1b21-459e-8a79-acc79514a894", "eddcdabe-18fe-4965-a427-610afe3dca9d", "16dd5d95-ff65-4328-8406-a454a19b1fcb", "977b1570-e262-4eba-8996-344562f0e21c", "f42f951c-7a6f-46cd-ad2a-69d5d0b2738a", "b5837dea-d350-447c-806a-932622b3a011", "c5735f73-40ec-4e58-9c0e-3027c722728a", "a82a7472-a913-47b5-b24b-7341d5a1dca6", "2604cdfb-b28f-4a98-b4b0-10a90832fc18", "5d1aadc6-c255-40e5-98e6-7c7f87dafd25", "dbf5b7f2-9dba-4269-9ff4-3c426bed7d91", "bcb4cf54-11de-4ae7-b701-7ac35aef71f8", "fe2f8eb8-d854-419c-b10c-c2afefea3c85", "0acdd7ea-f825-463f-acc3-0fd3784393d5", "f3ff6dc4-6bb5-4118-879e-110978dc7fbd"]
+# voteparty: Configuration relative to vote parties.
+voteparty:
+  # voteparty[votes]: This is the number of votes to start a vote party.  
+  votes: 50
+  # voteparty[minutes-to-start]: These are the muintuos to start a vote party, whether or not the votes have
+  #   been reached.
+  minutes-to-start: 60
+
+# raiding:
+raiding:
+  # raiding[price]: The price to raid an item.
+  price: 1000000
+  # raiding[size]: The size of explosion.
+  size: 4
+  # raiding[timer]: Seconds before area is freed.
+  timer: 90
+
+# worlds: This is the configuration per world. 
+#  `dimension` sets the dimension of the world, overworld, the_end and nether are supported. 
+#  `rain` sets if the world should rain or not.  If the biome is ice plains, it will snow.
+
+worlds:
+  minigames:
+    dimension: overworld
+    rain: true
+  duels:
+    dimension: the_end
+    rain: true
+  hub:
+    dimension: overworld
+    rain: true
+  prison:
+    dimension: overworld
+    rain: true
+  warzone:
+    dimension: the_end
+    rain: true
+  vipworld:
+    dimension: overworld
+    rain: true
+  wild:
+    dimension: overworld
+    rain: true
+  hotel:
+    dimension: overworld
+    rain: true
+
+# land: Land settings
+land:
+  # land[due-deadline]: These are the maximum days of overdue to pay the rent of a land before it is disposed.
+  due-deadline: 2
+  # land[limit]: This is the limit of lands per player.  OPs can bypass this. 
+  land-limit: 1
+  
+# auction: Settings for the auction house.
+auction:
+  # auction[cost]: This is the money taken to post an auction.
+  cost: 500000
+  # auction[cooldown]: These are the minutes the player must wait when posting an auction.
+  cooldown: 1
+  # auction[buy-timer]: These are the maximum seconds to confirm the auction purchase.
+  buy-timer: 5
+  # auction[per-page-limit]: This is the limit of auctions shown per page, when searching for auctions.
+  per-page-limit: 10
+  # auction[daily-tax]: This is the percentage of tax charged per day for each auction.
+  daily-tax: 10
+  # auction[takedown-days]: These are the days for the auction to be taken down, eg if it has not accepted a BIN.
+  takedown-days: 10
+  # auction[collect-days]: This is the cap time for the auction to be collected by the owner.
+  collect-days: 10
+
+# payment-db: Path to the payments database on the local filesystem. This file must be writable (chmod 777)
+payments-db: "/var/www/html/store/payments.js"
+
+# discord-webhook-api: This is the API for sending Discord webhooks.
+discord-webhook-api: "https://crowdmc.us.to/api.php?pwd=[REDACTED]&url={url}&message={msg}&fields={fields}"
+
+# discord-webhooks: List of Webhooks. 
+#  - The report webhook is used to submit reports with /report
+#  - The warns webhook  is used to submit the warn logs of each /warn issued by staff. 
+#  - The donations webhook is used to record payments received from the store.
+discord-webhooks:
+  reports: "https://discord.com/api/webhooks/798800848082960415/iTqijKkANIDsXuPNz-hJNuFDPze2Ri17YqXwJQhuHfaie0FBXC9fxuguo-uPgrUGDv7o"
+  warns: "https://discord.com/api/webhooks/798800747080056862/jfvnNiIPLyhiYMl2FdLwJhF6uaVTW_2D10D6SVshuPBJIDK3GWFXdt4HloFCxkoa6B-y"
+  donations: "https://discord.com/api/webhooks/798800618277961748/6Msn6NecIe4wkNcE2MKrbB2b_QoijNaSqMnTutljCYFCJtrLaKLLFI7QbQ--Jyhsed3K"
+  voteparty: "https://discord.com/api/webhooks/798800288483770378/hIrd0KkKJ88fRYXh2HsYUEOGIuGwPW8XWdgrvBhuaOr-pzwy_i0UfFxG5we3I1fR87ZI"
+   
+# warns-before-ban: This is the number of warns before a player is banned. 
+#   Note these warns are reset after each ban.
+warns-before-ban: 3
+
+# bans:
+# Duration in seconds of each and every possible ban. The last ban MUST be -1
+bans:
+  - 86400
+  - 259200
+  - -1
+
+# rules: This is the list of rules. 
+#  The rules are intentionally indexed, each broken rule is assigned a penalty and is also numbered to match
+#  the rule.  
+rules:
+  # rules[list]
+  list:
+    0: "Abusing a glitch"
+    1: "Cursing / swearing"
+    2: "Modded game / hacks"
+    3: "Sexual behavior"
+    4: "Begging for ranks / items"
+    5: "Scamming in real life money"
+    6: "Requesting personal info"
+    7: "Advertising other servers"
+    8: "Using transparent skins"
+    9: "Arguing / drama"
+    10: "Bypassing a ban"
+    11: "Sending spam"
+  # rules[sanctions]
+  sanctions:
+    0: 1
+    1: 1
+    2: 1
+    3: 2
+    4: 1
+    5: 9
+    6: 1
+    7: 1
+    8: 1
+    9: 1
+    10: 9
+    11: 1
+
+
+# link-money: This is the money the player gets by linking their account. 
+#  This money is also subtracted when unlinking, to avoid potential duplication of money.
+link-money: 1000000
+
+# mcpediscord-api: This is the API for the MCPE to Discord bridge.
+mcpediscord-api:
+  # mcpediscord-api[url]: This is the API URL.  All requests will be sent here, if the web server is on the same
+  #   host prefer http://localhost.  Also please prefer an SSL (TLS) certificate, make sure it is not expired. 
+  url: "https://crowdmc.us.to/api/MCPEDiscord/MainController.php" #~~http://localhost~~
+  # mcpediscord-api[server-id]: This is the server ID in the API.
+  server-id: 0
+  # mcpediscord-api[server-key]: This is the server key in the API.
+  server-key: gF53Azjpwzf8r5q7atySEefEEzg9Eh8kNW3CFy7cZWkFAdNs5N6BqWjWwuXR5pK3
+  
+# recipes: This is the list of crafting recipes.
+#  The ingredients must be an array containing the substances that when crafted produce the results.
+#  The recipes are registrated as shaped recipes.
+#  You can also use the factor shortcut by postponing *<number>
+recipes:
+  -
+    ingredients: [atlas_crate*9]
+    results: [atlas_gem]
+  -
+    ingredients: [hestia_crate*9]
+    results: [hestia_gem]
+  -
+    ingredients: [lucky_block*2, air, lucky_block*2]
+    results: [rainbow_lucky_block]
+#-
+  #  ingredients: [netherite_ingot*2, air, netherite_ingot, stick, air*2, stick]
+    #results: [netherite_axe]
+ # -
+  #  ingredients: [netherite_ingot*2, air*2, stick, air*2, stick]
+   # results: [netherite_hoe]
+  #-
+   # ingredients: [netherite_ingot*3, air, stick, air*2, stick]
+   # results: [netherite_pickaxe]
+ # -
+  #  ingredients: [air, netherite_ingot, air, stick, air*2, stick]
+  #  results: [netherite_shovel]
+  #-
+  #  ingredients: [air, diamond, air*2, diamond, air*2, stick]
+  #  results: [netherite_sword]
+  -
+#    ingredients: [netherite_ingot*4, air, netherite_ingot]
+  #  results: [netherite_helmet]
+ # -
+   # ingredients: [netherite_ingot, air, netherite_ingot*7]
+ #   results: [netherite_chestplate]
+ # -
+   # ingredients: [netherite_ingot*4, air, netherite_ingot*2, air, netherite_ingot]
+   # results: [netherite_leggings]
+ # -
+   # ingredients: [netherite_ingot, air, netherite_ingot*2, air, netherite_ingot]
+   # results: [netherite_boots]
+
+# depend: These plugins must be enabled after a configured acceptable time (roughly 60s),
+#  otherwise the server will be put into maintenance.
+depend: [BlockPets, CustomEnchants, FactionsPro, LegacyCore, MineReset, PureEntitiesX]
+
+# commands:
+#  Autocompletion rules are:
+
+#  General:
+#    1. A command with subcommands cannot have parameters by root.
+#    2. Subcommand-subcommands are not allowed. The first argument can be a command's parameter, or the 2+, parameters of a subcommand.
+
+#   In subcommand level:
+#     1. type keys are not admitted
+#     2. type is reserved word
+
+#   In parameter level:
+#     1. type default is string; isOptional default is false.
+#     2. type list: string/int/float/target/text/enum
+#     3. enum key is required for enum types.
+commands:
+  size:
+    size:
+      type: int
+      isOptional: false
+  placeimage:
+    path:
+      type: string
+      isOptional: false
+    size:
+      type: int
+      isOptional: false
+  addnbt:
+    target:
+      type: enum
+      isOptional: false
+      enum: [entity, item]
+    nbt:
+      type: text
+      isOptional: false
+  tpxyz:
+    x:
+      type: string
+      isOptional: false
+    y:
+      type: string
+      isOptional: false
+    z:
+      type: string
+      isOptional: false
+    world:
+      type: string
+      isOptional: true
+  pay:
+    player:
+      type: string
+      isOptional: false
+    money:
+      type: string
+      isOptional: false
+  topmoney:
+    page:
+      type: int
+      isOptional: true
+  givemoney:
+    player:
+      type: string
+      isOptional: false
+    money:
+      type: string
+      isOptional: false
+  takemoney:
+    player:
+      type: string
+      isOptional: false
+    money:
+      type: string
+      isOptional: false
+  pg:
+    lock: []
+    unlock: []
+    info: []
+    passlock:
+      passcode:
+        type: string
+        isOptional: false
+    passunlock:
+      passcode:  
+        type: string
+        isOptional: false
+      
+      
+  alias:
+    player:
+      type: string
+      isOptional: false
+  timeonline:
+    days:
+      type: int
+      isOptional: true
+    player:
+      type: string
+      isOptional: true
+  link:
+    code:
+      type: int
+      isOptional: false
+  unlink: []
+  report: []
+  warn: []
+  staff:
+    msg:
+      type: text
+      isOptional: true
+  gmspc: []
+  case:
+    id:
+      type: int
+      isOptional: false
+  cases: []
+  rules: []
+  tests:
+    needChecks:
+      type: int
+      isOptional: false
+    changes:
+      type: text
+      isOptional: false
+  setgroup:
+    player:
+      type: string
+      isOptional: false
+    group:
+      type: string
+      isOptional: false
+    needGroup:
+      type: string
+      isOptional: true
+  unsetgroup:
+    player:
+      type: string
+      isOptional: false
+    group:
+      type: string
+      isOptional: false
+  setuperm:
+    player:
+      type: string
+      isOptional: false
+    permission:
+      type: string
+      isOptional: false
+  unsetuperm:
+    player:
+      type: string
+      isOptional: false
+    group:
+      type: string
+      isOptional: false
+  setsuffix:
+    player:
+      type: string
+      isOptional: false
+    suffix:
+      type: string
+      isOptional: false
+  listuperms:
+    player:
+      type: string
+      isOptional: false
+    page:
+      type: int
+      isOptional: true
+  giveaway:
+    playerCount:
+      type: int
+      isOptional: false
+  give:
+    player:
+      type: target
+      isOptional: false
+    item:
+      type: string
+      isOptional: false
+    count:
+      type: int
+      isOptional: true
+    tags:
+      type: text
+      isOptional: true
+  invsee:
+    player:
+      type: target
+      isOptional: false
+  love:
+    player:
+      type: target
+      isOptional: false
+  seelove:
+    player: 
+      type: string
+      isOptional: false
+  givetokens:
+    player:
+      type: string
+      isOptional: false
+    tokens:
+      type: int
+      isOptional: false
+  maintenance:
+    on:
+      reason:
+        type: text
+        isOptional: true
+    off: []
+  setlanguage:
+    language:
+      type: string
+      isOptional: false
+  backupinventory: []
+  armor: []
+  clearchat: []
+  ceshow: []
+  trash:
+    hand: []
+    all: []
+    undo:
+      times:
+        type: int
+        isOptional: true
+    toggle: []
+  account: []
+    #group:
+      #account:
+        #type: string
+        #isOptional: true
+    #switch:
+      #account:
+        #type: string
+        #isOptional: true
+  auctionhouse: []
+    #sell: []
+    #list:
+      #args:
+        #type: rawtext
+        #isOptional: true
+    #info:
+      #auction:
+        #type: int
+        #isOptional: true
+    #buy:
+      #auction:
+        #type: int
+        #isOptional: true
+    #manage:
+      #auction:
+        #type: int
+        #isOptional: true
+  autosell:
+    add:
+      item:
+        type: string
+        isOptional: false
+    remove:
+      item:
+        type: string
+        isOptional: false
+    list: []
+    toggle: []
+  sell:
+    hand: []
+    all: []
+    list: []
+  bounty:
+    add:
+      player:
+        type: target
+        isOptional: false
+      money:
+        type: float
+        isOptional: false
+    remove:
+      player:
+        type: target 
+        isOptional: false
+    me: []
+    see:
+      player:
+        type: target
+        isOptional: false
+    
+  ceinfo:
+    enchant:
+      type: string
+      isOptional: true
+  ceremove: 
+    enchant:
+      type: string
+      isOptional: false
+  ceremoveall: []
+  ceshop: []
+  cesplit: []
+  eupgrade:
+    enchant:
+      type: string
+      isOptional: false
+    levelWanted:
+      type: int
+      isOptional: true
+  ceupgrade:
+    enchant:
+      type: string
+      isOptional: false
+    levelWanted:
+      type: int
+      isOptional: true
+  coinflip:
+    player:
+      type: target
+      isOptional: false
+    money:
+      type: float
+      isOptional: false
+  changelog: []
+  chat: []
+  coordinates: []
+  duel:
+    player:
+      type: string
+      isOptional: true
+    duel:
+      type: int
+      isOptional: true
+  delhome:
+    home:
+      type: string
+      isOptional: false
+  effects: []
+  enchant: []
+  f:
+    bank: []
+    accept: []
+    allychat: []
+    overclaim: []
+    chat: []
+    claim: []
+    create: []
+    del: []
+    demote: []
+    deny: []
+    help: []
+    info: []
+    invite: []
+    kick: []
+    leader: []
+    leave: []
+    sethome: []
+    unclaim: []
+    unsethome: []
+    ourmembers: []
+    ourofficers: []
+    ourleader: []
+    allies: []
+    enemy: []
+    desc: []
+    promote: []
+    ally: []
+    unally: []
+    allyok: []
+    allyno: []
+    allies: []
+    membersof: []
+    officersof: []
+    leaderof: []
+    near: []
+    rename:
+      newName:
+        type: text
+        isOptional: false
+    say: []
+    pf: []
+    top: [] 
+    vault: []
+    war: []
+  fly: []
+  home:
+    name:
+      type: string
+      isOptional: true
+  homes: []
+  invite: []
+  kit: []
+  kitshop: []
+  lastenv: []
+  me: []
+  mymoney: []
+  mystatus: []
+  myxp: []
+  near: []
+  nickname: []
+  ping: []
+  list: []
+  playerstats:
+    player:
+      type: target
+      isOptional: true
+  pv:
+    number:
+      type: int
+      isOptional: false
+  prestige: []
+  quest: []
+  raid: []
+  rankup:
+    rankWanted:
+      type: string
+      isOptional: true
+  realname:
+    player:
+      type: target
+      isOptional: false
+  rename:
+    newName:
+      type: text
+      isOptional: false
+  repair: []
+  report: []
+  rules: []
+  say:
+    message:
+      type: text
+      isOptional: false
+  seemoney:
+    player:
+     type: target
+     isOptional: false
+  sethome:
+    name:
+      type: string
+      isOptional: true
+  survey:
+    stats:
+      survey:
+        type: string
+        isOptional: false
+    vote:
+      survey:
+        type: string
+        isOptional: false
+  tag: []
+  tell:
+    player:
+      type: target
+      isOptional: false
+    message:
+      type: text
+      isOptional: false
+  top: []
+  tpa:
+    player:
+      type: target
+      isOptional: false
+  tpahere:
+    player:
+      type: target
+      isOptional: false
+  tpaccept: []
+  tpdeny: []
+  trade: []
+  transfermoney: []
+  transferxp: []
+  vanish: []
+  link:
+    code:
+      type: int
+      isOptional: false
+  unlink: []
+  vip: []
+  vote: []
+  vp: []
+  warp:
+    name:
+      type: string
+      isOptional: true
+  withdraw:
+    money:
+      money:
+        type: float
+        isOptional: false
+    exp:
+      exp:
+        type: float
+        isOptional: false
+    tokens:
+      tokens:
+        type: int
+        isOptional: false
+  ffa: []
+  time:
+    day: []
+    night: []
+    stop: []
+    start: []
+  sell:
+    hand: []
+    all: []
+    list: []
+  land:
+    pay:
+      landID:
+        type: int
+        isOptional: false
+    help: []
+    dispose:
+      landID:
+        type: int
+        isOptional: false
+    pay:
+      landID:
+        type: int
+        isOptional: false
+    rmhelper:
+      land_ID:
+        type: int
+        isOptional: false
+      player:
+        type: string
+        isOptional: false
+    addhelper:
+      land_ID:
+        type: int
+        isOptional: false
+      player:
+        type: string
+        isOptional: false
+    tp:
+      landID:
+        type: int
+        isOptional: false
+    deny:
+      landID:
+        type: int
+        isOptional: false
+      player:
+        type: string
+        isOptional: false
+    info: 
+      landID:
+        type: int
+        isOptional: false
+    home: []
+    sethome:
+      landID:
+        type: int
+        isOptional: false
+    list: []
+    auto: []
+    pos1: []
+    pos2: []
+    pos3: []
+    create:
+      price:
+        type: int
+        isOptional: false
+    delete:
+      landID:
+        type: int
+        isOptional: false
+    transfer:
+      landID:
+        type: int
+        isOptional: false
+      owner:
+        type: string
+        isOptional: false
+    sell: []
+  xpboost: []
+  quest: []
+  ignore:
+    add:
+      player:
+        type: target
+        isOptional: false
+    remove:
+      player:
+        type: string
+        isOptional: false
+    list: []
+  cape: []
+  pmine: []
+  wings: []
+  inventory: []
+  transfer: []
+  warn: []
+  seeinv:
+    player:
+      type: target
+      isOptional: false
+  tp:
+    player:
+      type: target
+      isOptional: false
+  gamemode:
+    mode:
+      type: text
+      isOptional: false
+  helpme:
+    page:
+      type: int
+      isOptional: true
+  
+# surveys: Configuration for surveys. 
+#  Depending on expiry, this will determine the type of survey.
+#  <0: The negative sign is removed and is equivalent to the number of votes to close the survey.
+#  0: The poll is closed manually,
+#  >0: It will be interpreted as a Unix timestamp, after this time the poll will be closed. 
+surveys: []
+ #surveyName:
+  #expiry: -1
+  # Enable public vote statistics?
+  #vote-stats: false
+  #form:
+   # The text in option 1
+   #button1: ""
+   # The text in option 2
+   #button2: ""
+   # The title of the survey.
+   #title: ""
+   # The summary of the poll.
+   #content: ""
+...

@@ -1,0 +1,86 @@
+---
+# Remove spawner mobs from these constants accordingly
+# BlockHorizons\BlockPets\Loader::PETS, BlockHorizons\BlockPets\Loader::PET_CLASSES
+Zombie:
+  str: 37
+  headhunting: 1
+  exp: 60000
+  drops:
+    rotten_flesh: 
+      baseDropChance: 100
+      dropRange: 1-2
+Spider:
+  str: 75
+  headhunting: 3
+  exp: 100000
+  drops:
+    string:
+      baseDropChance: 100
+      dropRange: 1-3
+    spider_eye:
+      baseDropChance: 100
+      dropRange: 1-1
+Squid:
+  str: 100
+  headhunting: 5
+  exp: 150000
+  drops:
+    351:
+      baseDropChance: 100
+      dropRange: 1-2
+Chicken: 
+  str: 150
+  headhunting: 7
+  exp: 200000
+  drops:
+    feather:
+      baseDropChance: 100
+      dropRange: 1-3
+    raw_chicken:
+      baseDropChance: 100
+      dropRange: 1-1
+Magma Cube:
+  str: 200
+  headhunting: 10
+  exp: 300000
+  drops:
+    magma_cream:
+      baseDropChance: 100
+      dropRange: 1-5
+Rabbit:
+  str: 300
+  headhunting: 15
+  exp: 400000
+  drops:
+   rabbit_hide:
+     baseDropChance: 100
+     dropRange: 1-3
+   raw_mutton:
+     baseDropChance: 100
+     dropRange: 1-1
+Iron Golem: 
+  str: 500
+  headhunting: 25
+  exp: 750000
+  drops:
+    diamond_block:
+      baseDropChance: 100
+      dropRange: 1-1
+    emerald_block:
+      baseDropChance: 100
+      dropRange: 1-1
+    diamond:
+      baseDropChance: 100
+      dropRange: 1-4
+    emerald:
+      baseDropChance: 100
+      dropRange: 1-3
+Zombie Pigman:
+  str: 750
+  headhunting: 30
+  exp: 1000000
+  drops:
+    rotten_flesh: 
+      baseDropChance: 100
+      dropRange: 20-60
+...

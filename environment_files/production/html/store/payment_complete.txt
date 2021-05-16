@@ -1,0 +1,5 @@
+Your payment has been successfully processed.
+
+To receive in game goods please login to our Minecraft server. Once logged in you will have a maximum wait time of 15 seconds before automatically receiving your purchased items(s).
+
+If you have any issues please contact a member of staff on the server. Please do not contact Mojang. This page is not proof of purchase, please provide the store's support with your transaction ID if there are any issues with the payment.

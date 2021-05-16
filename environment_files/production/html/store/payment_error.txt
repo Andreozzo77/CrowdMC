@@ -1,0 +1,3 @@
+Something went wrong with your payment. Try again or contact a member of staff on the server.
+
+No charge was made to your PayPal account.

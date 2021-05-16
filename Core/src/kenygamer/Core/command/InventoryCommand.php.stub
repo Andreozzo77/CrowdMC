@@ -1,0 +1,84 @@
+<?php
+
+declare(strict_types=1);
+
+namespace kenygamer\Core\command;
+
+use pocketmine\item\Item;
+use pocketmine\item\ItemFactory;
+use pocketmine\Player;
+use kenygamer\Core\listener\MiscListener2;
+use kenygamer\Core\util\ArmorTypes;
+use muqsit\invmenu\InvMenu;
+use muqsit\invmenu\inventory\InvMenuInventory;
+
+class InventoryCommand extends BaseCommand{
+	
+	public function __construct(){
+		parent::__construct(
+			"inventory",
+			"Open your  inventory",
+			"/inventory",
+			["inv"],
+			BaseCommand::EXECUTOR_PLAYER,
+			"true"
+		);
+	}
+	
+	protected function onExecute($sender, array $args) : bool{
+		$menu = InvMenu::create(InvMenu::TYPE_HOPPER);
+	    $menu->setName("Inventory");
+	    MiscListener2::$changingInventory[$sender->getName()] = [$menu->getInventory(), []];
+	    MiscListener2::$lastInventoryOpen[$sender->getName()] = microtime(true);
+	    
+	    $menu->getInventory()->setContents($sender->getArmorInventory()->getContents());
+	    $menu->setInventoryCloseListener(function(Player $player, InvMenuInventory $inventory){
+	        $items = MiscListener2::$changingInventory[$player->getName()][1] ?? [];
+	        
+	       
+	        $diff = microtime(true) - (MiscListener2::$lastInventoryOpen[$player->getName()] ?? 0);
+	        if($diff > 0.5){
+	       		unset(MiscListener2::$changingInventory[$player->getName()]);
+	       	}
+	        if(!$player->isOnline()){
+	        	return;
+	        }
+	        foreach($inventory->getContents(true) as $slot => $itemInMenuInventory){
+	            $item = $items[$slot] ?? null;
+	            if($item === null){
+	                if($itemInMenuInventory->isNull()){ 
+	                    if(!($slot > ($player->getArmorInventory()->getSize() - 1))){
+	                		$player->getArmorInventory()->setItem($slot, ItemFactory::get(Item::AIR));
+	                	}
+	                }
+	            	continue;
+	            }
+	        	switch($slot){
+					case 0:
+	                	$valid = ArmorTypes::getType($item) === ArmorTypes::TYPE_HELMET xor $item->getId() === Item::SKULL;
+	                	break;
+	                case 1:
+	                    $valid = ArmorTypes::getType($item) === ArmorTypes::TYPE_CHESTPLATE;
+	                    break;
+		            case 2:
+	                    $valid = ArmorTypes::getType($item) === ArmorTypes::TYPE_LEGGINGS;
+	                    break;
+	                case 3:
+	                    $valid = ArmorTypes::getType($item) === ArmorTypes::TYPE_BOOTS;
+	                    break;
+	                default:
+	                    $valid = false;
+	            }
+	          
+	            if($valid && $player->getArmorInventory()->getItem($slot)->isNull()){
+	            	$player->getArmorInventory()->setItem($slot, $item);
+	            }else{ //Not valid, or there is an item in the slot 
+	              	$player->getInventory()->addItem($item);
+	            }
+	        }
+	    });
+	    $menu->send($sender);
+		return true;
+	}
+	
+}

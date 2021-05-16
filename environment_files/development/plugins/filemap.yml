@@ -1,0 +1,11 @@
+--- # File map. This does not create any directory tree!
+#"%repoPath%environment_files/production/pocketmine/RakLibInterface.php": "%serverPath%src/pocketmine/network/mcpe/RakLibInterface.php"
+#"%repoPath%environment_files/production/pocketmine/TieredTool.php": "%serverPath%src/pocketmine/item/TieredTool.php"
+#"%repoPath%environment_files/production/pocketmine/Living.php": "%serverPath%src/pocketmine/entity/Living.php"
+#"#%repoPath%environment_files/production/pocketmine/Level.php": "%serverPath%src/pocketmine/level/Level.php"
+#"%repoPath%environment_files/production/pocketmine/ItemIds.php": "%serverPath%src/pocketmine/item/ItemIds.php"
+#"%repoPath%environment_files/production/pocketmine/EntityIds.php": "%serverPath%src/pocketmine/entity/EntityIds.php"
+#"%repoPath%environment_files/production/pocketmine/Entity.php": "%serverPath%src/pocketmine/entity/Entity.php"
+#"%repoPath%environment_files/production/pocketmine/AddActorPacket.php": "%serverPath%src/pocketmine/network/mcpe/protocol/AddActorPacket.php"
+#"%repoPath%environment_files/production/pocketmine/CrashDump.php": "%serverPath%src/pocketmine/CrashDump.php"
+...

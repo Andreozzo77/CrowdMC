@@ -1,0 +1,21 @@
+# Difficulty Game mode For 
+# NPC Level High Would Greather Health And Attack Damage
+Difficulty: Normal
+
+# Mute All Player
+Muteall: false
+
+# Per World Chat
+Perworldchat: false
+
+# Snooper Message In Console
+Console-Logger: true
+
+# Banlist UI System
+Banlist-UI: true
+
+# Ingore UI System
+Ignore-UI: true
+
+# Player Information UI System
+PlayerInfo-UI: true

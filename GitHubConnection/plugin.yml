@@ -1,0 +1,17 @@
+name: GitHubConnection
+main: kenygamer\GitHubConnection\Main
+api: 3.9.7
+version: 1.3.0-stable
+author: kenygamer
+website: kenygamer.com
+description: Reinstalls the server plugins 
+
+commands:
+  reinstall:
+    description: "Reinstalls the server plugins"
+    usage: "/reinstall"
+    permission: githubconnection.command.reinstall
+permissions:
+  githubconnection.command.reinstall:
+    description: "Allows access to the reinstall command."
+    default: op

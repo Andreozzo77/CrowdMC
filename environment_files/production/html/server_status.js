@@ -1,0 +1,1 @@
+{"serverIP":"mcpe.life","serverPort":19132,"serverTPS":"20 (1%)","mcpeVer":"v1.14.60","maintenance":true,"maintenanceReason":"mcpe.life\/discord #announcements","onlinePlayers":0,"maxPlayers":2,"players":"","averagePing":0,"snapshot":"00000","time":1589577682}

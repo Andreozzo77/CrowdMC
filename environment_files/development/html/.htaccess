@@ -1,0 +1,8 @@
+<IfModule mod_mime.c>
+ AddType application/phar .phar
+ AddType application/octet-stream .zip
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

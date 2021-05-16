@@ -1,0 +1,6 @@
+{
+    "name": "root/store",
+    "require": {
+        "paypal/paypal-checkout-sdk": "^1.0"
+    }
+}

@@ -1,0 +1,531 @@
+name: LegacyCore
+api: [3.0.0, 4.0.0]
+version: 1.0.0
+author: kenygamer
+main: LegacyCore\Core
+load: POSTWORLD
+loadbefore: [Core]
+description: A plugin with the most of EliteStar core features
+permissions:
+ core.bypass.mines:
+  description: "Allows you to go to premium mine without having the core.command.vip permission."
+  default: false
+ core.bypass.fly:
+  description: "Allows you to fly in restricted worlds."
+  default: false
+ core.command.stop:
+  description: "Stops the server"
+  default: op
+ core.command.adminhome:
+  description: "Teleport to other player home"
+  default: op
+ core.command.alias:
+  description: "Allows users to view all the usernames one user has used"
+  default: op
+ core.command.area:
+  description: "Allows you to manage areas"
+  default: op
+ core.command.ban:
+  description: "Temporarily bans the specified player"
+  default: op
+ core.command.banip:
+  description: "Temporarily IP address the specified player"
+  default: op
+ core.command.bancid:
+  description: "Temporarily Client ID the specified player"
+  default: op
+ core.command.banlist:
+  description: "View all players banned from this server"
+  default: op
+ core.command.bounty:
+  description: "Bounty Commands"
+  default: true
+ core.command.bounty.add:
+  description: "Bounty add Player"
+  default: true
+ core.command.bounty.remove:
+  description: "Remove Bounty Player"
+  default: op
+ core.command.bounty.see:
+  description: "See Someone Bounty"
+  default: true
+ core.command.bounty.me:
+  description: "See Yourself Bounty"
+  default: true
+ core.command.back:
+  description: "Teleport to your previous location"
+  default: op
+ core.command.blow:
+  description: "Explode a player"
+  default: op
+ core.command.break:
+  description: "Breaks the block you're looking at"
+  default: op
+ core.command.broadcast:
+  description: "Broadcast a message"
+  default: op
+ core.command.bypass:
+  description: "Bypass Banned Command"
+  default: op
+ core.command.ceinfo:
+  description: "Check Custom Enchants Info"
+  default: true
+ core.command.ceremove:
+  description: "Allows you to remove enchant of an item and return it in form of book"
+  default: true
+ core.command.ceremoveall:
+  description: "Allows you to remove all enchants of held item"
+  default: true
+ core.command.ceshop:
+  description: "Buy custom enchanted book with Exp"
+  default: true
+ core.command.chateffect:
+  description: "Change colour chat"
+  default: op
+ core.command.clear:
+  description: "Clear your inventory"
+  default: op
+ core.command.clear.other:
+  description: "Clear others inventory"
+  default: op
+ ore.command.clearchat:
+  description: "Clear all chat"
+  default: op
+ core.command.clearlagg:
+  description: "Clear the lag!"
+  default: op
+ core.command.confuse:
+  description: "Confuse the players"
+  default: op
+ core.command.coordinates:
+  description: "Show/hide coordinates"
+  default: true
+ core.command.delhome:
+  description: "Delete your home"
+  default: true
+ core.command.difficulty:
+  description: "Set the game level difficulty"
+  default: op
+ core.command.effectids:
+  description: "Check Effects ids list"
+  default: op
+ core.command.effects:
+  description: "Buy effects power with money"
+  default: op
+ core.command.enchant:
+  description: "Buy vanilla enchantment with EXP"
+  default: op
+ core.command.enchantids:
+  description: "Check enchantment ids list"
+  default: op
+ core.command.exp:
+  description: "Check you total Exp"
+  default: true
+ core.command.feed:
+  description: "Feed yourself"
+  default: op
+ core.command.fly:
+  description: "Fly in Survival or Adventure mode"
+  default: op
+ core.command.gamemode:
+  description: "Change yourself gamemode"
+  default: op
+ core.command.gamemode.other:
+  description: "Change other gamemode"
+  default: op
+ core.command.getpos:
+  description: "Get your position"
+  default: true
+ core.command.getpos.other:
+  description: "Get other player position"
+  default: op
+ core.command.getkey:
+  description: "Gives key to player"
+  default: op
+ core.command.gift:
+  description: "Gift item custom stuff to player"
+  default: op
+ core.command.god:
+  description: "Prevent you from taking any damage"
+  default: op
+ core.command.god.other:
+  description: "God mode to other players"
+  default: op
+ core.command.givexp:
+  description: "Gives experience to player"
+  default: op
+ core.command.heal:
+  description: "Heal yourself"
+  default: op
+ core.command.home:
+  description: "Teleport to your home"
+  default: true
+ core.command.homes:
+  description: "View your homes"
+  default: true
+ core.command.invisible:
+  description: "Invisible no one can't see it"
+  default: op
+ core.command.invisible.other:
+  description: "Invisible to other players"
+  default: op
+ core.command.repair:
+  description: "Repair items in your inventory"
+  default: true
+ core.command.invsee:
+  description: "Check player inventory"
+  default: op
+ core.command.item:
+  description: "Let you see information attached to an item"
+  default: true
+ core.command.list:
+  description: "Lists players on the server"
+  default: true
+ core.command.kick:
+  description: "Removes the specified player from the server"
+  default: op
+ core.command.kickall:
+  description: "Kick all the players"
+  default: op
+ core.command.kill:
+  description: "Kill the player"
+  default: op
+ core.command.kit:
+  description: "Get at Kits"
+  default: true
+ core.command.links:
+  description: "Links the Server"
+  default: true
+ core.command.nick:
+  description: "Change your in-game name"
+  default: op
+ core.command.nick.other:
+  description: "Change other players in-game name"
+  default: op
+ core.command.near:
+  description: "List the players near to you"
+  default: op
+ core.command.me:
+  description: "Performs the specified action in chat"
+  default: op
+ core.command.more:
+  description: "Get a stack of the item you're holding"
+  default: op
+ core.command.myxp:
+  description: "Check you total Exp"
+  default: true
+ core.command.npc:
+  description: "Create a Slapper NPC"
+  default: op
+ core.command.pardon:
+  description: "Allows the specified player to use this server"
+  default: op
+ core.command.pardonip:
+  description: "Allows the specified IP address to use this server"
+  default: op
+ core.command.pardoncid:
+  description: "Allows the specified Client ID to use this server"
+  default: op
+ core.command.playerinfo:
+  description: "Show info about a certain player"
+  default: op
+ core.command.pvpmine:
+  description: "Random Teleport you in PvP Mine"
+  default: true
+ core.command.rankup:
+  description: "Rank UP to unlocked new rank"
+  default: true
+ core.command.realname:
+  description: "Check the real name of a player"
+  default: op
+ core.command.reset:
+  description: "Reset players data"
+  default: op
+ core.command.reset.money:
+  description: "Reset players Money data"
+  default: op
+ core.command.kitshop:
+  description: "Use kitshop command"
+  default: true
+ core.command.reset.exp:
+  description: "Reset players EXP data"
+  default: op
+ core.command.reset.streak:
+  description: "Reset players Streak Kill data"
+  default: op
+ core.command.reset.kill:
+  description: "Reset players Kill Points data"
+  default: op
+ core.command.reset.death:
+  description: "Reset players Death Points data"
+  default: op
+ core.command.reset.prison:
+  description: "Reset players Prison Rank data"
+  default: op
+ core.command.reset.rank:
+  description: "Reset players Regular Rank data"
+  default: op
+ core.command.reset.home:
+  description: "Reset players Home data"
+  default: op
+ core.command.rule:
+  description: "See the rules of the server"
+  default: true
+ core.command.say:
+  description: "Broadcasts the given message as the sender"
+  default: op
+ core.command.sell:
+  description: "Sells the item in your hand or all of your inventory's contents"
+  default: true
+ core.command.seexp:
+  description: "Shows exp of player"
+  default: true
+ core.command.seeskin:
+  description: "Copy Skin of player"
+  default: op
+ core.command.seehome:
+  description: "View other players homes"
+  default: op
+ core.command.sethome:
+  description: "Set your home"
+  default: true
+ core.command.kitshop:
+  description: "Buy a cooldown-free kit for money"
+  default: true
+ core.command.staff:
+  description: "Staff command permissions"
+  default: op
+ core.command.suicide:
+  description: "Kill yourself"
+  default: true
+ core.command.spawn:
+  description: "Teleport to server's main spawn"
+  default: true
+ core.command.spawn.other: 
+  description: "Teleport other player to server's main spawn"
+  default: op
+ core.command.stats:
+  description: "Scoreboard stats players"
+  default: true
+ core.command.snoop:
+  description: "Track people commands spy"
+  default: op
+ core.command.survival:
+  description: "Teleport to a Survival"
+  default: true
+ core.command.sudo:
+  description: "Force a player to chat or run a command"
+  default: op
+ core.command.tempban:
+  description: "Temporarily bans the specified player"
+  default: op
+ core.command.time:
+  description: "Changes the time on each world"
+  default: op
+ core.command.teleport:
+  description: "Teleport to player or to you"
+  default: op
+ core.command.teleport.coordinates:
+  description: "Teleport to coordinates"
+  default: op
+ core.command.tell:
+  description: "Send private messages to other players"
+  default: true
+ core.command.tpall:
+  description: "Teleport all player to you"
+  default: op
+ core.command.tpa:
+  description: "Request to teleport to them"
+  default: true
+ core.command.tpdeny:
+  description: "Deny a teleport request"
+  default: true
+ core.command.tpaccept:
+  description: "Accept a teleport request"
+  default: true
+ core.command.tpahere: 
+  description: "Request them to teleport to you"
+  default: true
+ core.command.top:
+  description: "Teleport to the highest block above you"
+  default: op
+ core.command.vanish:
+  description: "Hide from other players"
+  default: op
+ core.command.vanish.other:
+  description: "Hide other players"
+  default: op
+ core.command.version:
+  description: "Version servers"
+  default: true
+ core.command.vip:
+  description: "Vip commands special only donator"
+  default: op
+ core.command.warp:
+  description: "Teleport to a warp"
+  default: true
+ core.command.warzone:
+  description: "Random teleport in warzone area"
+  default: true
+ core.command.wild:
+  description: "Teleport you in a random place"
+  default: true
+ core.command.withdraw:
+  description: "Withdraw To Money or EXP"
+  default: true
+ core.command.world: 
+  description: "Teleport between worlds"
+  default: op
+ core.flying.enable:
+  description: "Fly enable automatic"
+  default: op
+ core.rank.vip:
+  description: "Mine Earn $2500 And EXP 5"
+  default: false
+ core.rank.mvp:
+  description: "Mine Earn $3000 And EXP 8"
+  default: false
+ core.rank.ultra:
+  description: "Mine Earn $4500 And EXP 10"
+  default: false
+ core.rank.legend:
+  description: "Mine Earn $6000 And EXP 13"
+  default: false
+ core.rank.ultimate:
+  description: "Mine Earn $7000 And EXP 20"
+  default: false
+ core.rank.youtube:
+  description: "Mine Earn $10000 And EXP 30"
+  default: false
+ core.rank.nightmare:
+  description: "Mine Earn $20000 And EXP 30"
+  default: false
+ core.paper.shard:
+  description: "Give rank Shard"
+  default: false
+ core.paper.harpy:
+  description: "Give rank Harpy"
+  default: false
+ core.paper.fury:
+  description: "Give rank Fury"
+  default: false
+ core.paper.knight:
+  description: "Give rank Knight"
+  default: false
+ core.kit.starter:
+  description: "Kit Starter Permission"
+  default: true
+ core.kit.archer:
+  description: "Kit Archer Permission"
+  default: true
+ core.kit.pvp:
+  description: "Kit PvP Permission"
+  default: true
+ core.kit.shard:
+  description: "Kit Shard Permission"
+  default: op
+ core.kit.harpy:
+  description: "Kit Harpy Permission"
+  default: op
+ core.kit.fury:
+  description: "Kit Fury Permission"
+  default: op
+ core.kit.knight:
+  description: "Kit Knight Permission"
+  default: op
+ core.kit.barbarian:
+  description: "Kit Barbarian Permission"
+  default: op
+ core.kit.vip:
+  description: "Kit VIP Permission"
+  default: op
+ core.kit.mvp:
+  description: "Kit MVP Permission"
+  default: op
+ core.kit.ultra:
+  description: "Kit Ultra Permission"
+  default: op
+ core.kit.legend:
+  description: "Kit Legend Permission"
+  default: op
+ core.kit.ultimate:
+  description: "Kit Ultimate Permission"
+  default: op
+ core.kit.youtube:
+  description: "Kit YouTube Permission"
+  default: op
+ core.kit.nightmare:
+  description: "Kit Nightmare Permission"
+  default: op
+ core.antiads.bypass:
+  description: "Anti Adversting Bypass"
+  default: op
+ core.antienchant.bypass:
+  description: "Anti Enchant Level Bypass"
+  default: op
+ core.antitem.bypass:
+  description: "Anti Item Banned Bypas"
+  default: op
+ core.antiskin.bypass:
+  description: "Anti Skin Banned Bypass"
+  default: op
+ core.antispam.bypass:
+  description: "Anti Spam Bypass"
+  default: op
+ core.bots.restart:
+  description: "Permission Bots to restart server"
+  default: op
+ core.bots.reload:
+  description: "Permission Bots to reload"
+  default: op
+ core.bots.bypass:
+  description: "Bypass Cooldown Bots Blocked"
+  default: op
+ core.bots.command:
+  description: "Bots Commands Permission"
+  default: op
+ core.ban.bypass:
+  description: "Unbanned Auto"
+  default: op
+ core.border.bypass:
+  description: "Bypass Border"
+  default: op
+ core.combat.bypass:
+  description: "Combat Bypass PvP"
+  default: op
+ core.cooldown.bypass:
+  description: "Bypass Cooldown Time Blocked"
+  default: op
+ core.chat.rainbow:
+  description: "Rainbow Chat Colour"
+  default: op
+ core.anticaps.bypass:
+  description: "Bypass Caps Words"
+  default: op
+ core.colorchat.bypass:
+  description: "Bypass To Use Color chat"
+  default: op
+ core.nick.bypass:
+  description: "Keep Nick When Server Restart"
+  default: op
+ core.protection.area:
+  description: "Area Protection"
+  default: op
+ core.bounty.blocked:
+  description: "Blocked Bounty Add Player"
+  default: op
+ core.information.blocked:
+  description: "Blocked Information Player"
+  default: op
+ core.tracker.player:
+  description: "Track Player Commands in log"
+  default: op
+ core.cooldown.low:
+  description: "Decrease %75 Cooldown"
+  default: op
+ core.god.pvp:
+  description: "PvP in God mode"
+  default: op
+ core.vanish.pvp:
+  description: "PvP in Invisibility mode"
+  default: op

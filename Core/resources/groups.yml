@@ -1,0 +1,207 @@
+---
+Member:
+  inheritance: []
+  permissions:
+  - core.command.kit
+  - core.kit.archer
+  - core.kit.pvp
+  - core.kit.starter
+  - core.paper.shard
+  isDefault: true
+  chat: "&0•&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&eCitizen&r&7] &f{display_name} &r&f> &r&f{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &eMember &r&f{display_name}"
+Shard:
+  inheritance: [Member]
+  permissions:
+  - -core.paper.fury
+  - -core.paper.knight
+  - -core.paper.shard
+  - core.paper.harpy
+  - -core.rank.legend
+  - -core.rank.mvp
+  - -core.rank.ultimate
+  - -core.rank.ultra
+  - -core.rank.vip
+  - -core.rank.youtube
+  - core.kit.shard
+  chat: "&0•&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&6Shard&r&7]
+      &f{display_name} &r&f> &r&f{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &6Shard &r&f{display_name}"
+Harpy:
+  inheritance: [Shard]
+  permissions:
+  - -core.paper.shard
+  - core.paper.fury
+  - core.kit.harpy
+  chat: "0•&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&9Harpy&r&7] &f{display_name} &r&f> &r&f{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &9Harpy &r&f{display_name}"
+Fury:
+  inheritance: [Harpy]
+  permissions:
+  - -core.paper.harpy
+  - core.paper.knight
+  - core.kit.fury
+  chat: "&0•&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&cFury&r&7] &f{display_name} &r&f> &r&f{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &cFury &r&f{display_name}"
+Knight:
+  inheritance: [Fury]
+  permissions:
+  - -core.paper.knight
+  - core.kit.knight
+  chat: "&0•&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&aKnight&r&7] &f{display_name} &r&f> &r&f{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &aKnight &r&f{display_name}"
+Barbarian:
+  inheritance: [Knight]
+  permissions:
+  - core.kit.barbarian
+  chat: "&0•&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&a☺&4Barbarian&a☺&r&7]
+      &f{display_name} &r&f> &r&f{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &a☺&4Barbarian&a☺ &r&f{display_name}"
+Vip:
+  inheritance: [Barbarian]
+  permissions:
+  - core.command.back
+  - core.command.feed
+  - core.command.fly
+  - core.command.heal
+  - core.command.time
+  - core.command.top
+  - core.command.vip
+  - core.kit.vip
+  - core.rank.vip
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&aVIP&r&7] &f{display_name} &r&f> &r&e{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &aVIP &r&f{display_name}"
+Mvp:
+  inheritance: [Vip]
+  permissions:
+  - core.command.me
+  - core.command.near
+  - core.command.realname
+  - core.kit.mvp
+  - core.rank.mvp
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&6MVP&r&7] &f{display_name} &r&f> &r&e{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &6MVP &r&f{display_name}"
+JuniorYT:
+  inheritance: [Mvp]
+  permissions:
+  - core.kit.junioryt
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&fJunior&cYT&r&7] &b{display_name} &r&l&9» &r&a{msg}"
+  nametag: "&l&6• &b{prefix} &fJunior&cYT &r&b{display_name}"
+Ultra:
+  inheritance: [JuniorYT]
+  permissions:
+  - core.command.break
+  - core.kit.ultra
+  - core.rank.ultra
+  - core.command.inventory
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&5Ultra&r&7] &f{display_name} &r&f> &r&e{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &5Ultra &r&f{display_name}"
+Legend:
+  inheritance: [Ultra]
+  permissions:
+  - core.colorchat.bypass
+  - core.coloredMessages
+  - core.command.chateffect
+  - core.command.nick
+  - core.kit.legend
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&9Legend&r&7] &b{display_name} &r&l&9» &r&a{msg}"
+  nametag: "&l&6• &b{prefix} &9Legend &r&b{display_name}"
+Ultimate:
+  inheritance: [Legend]
+  permissions:
+  - core.command.effect
+  - core.command.vanish
+  - core.kit.ultimate
+  - core.nick.bypass
+  - core.rank.ultimate
+  - core.command.eupgrade
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&cUltimate&r&7] &b{display_name} &r&l&9» &r&a{msg}"
+  nametag: "&l&6• &b{prefix} &cUltimate &r&b{display_name}"
+YouTuber:
+  inheritance: [Ultimate]
+  permissions:
+  - core.kit.youtuber
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&fYou&cTuber&r&7] &b{display_name} &r&l&9» &r&a{msg}"
+  nametag: "&l&6• &b{prefix} &fYou&cTuber &r&b{display_name}"
+Nightmare:
+  inheritance: [YouTuber]
+  permissions:
+  - core.chat.rainbow
+  - core.kit.nightmare
+  - core.rank.nightmare
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&4&lNight&6mare&r&7] &b{display_name} &r&l&9» &r&a{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &4Night&6mare &r&f{display_name}"
+Universe:
+  inheritance: [Nightmare]
+  permissions:
+  - core.kit.universe
+  - core.command.say
+  - core.command.cosmetic
+  - core.command.personalmine
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&cUnive&5rse&r&7] &b{display_name} &r&l&9» &r&a{msg}"
+  nametag: "&l&6• &b{prefix} &cUnive&5rse &r&b{display_name}"
+Builder:
+  inheritance: [Knight]
+  permissions: []
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&1Builder&r&7] &b{display_name} &r&l&9» &r&a{msg}"
+  nametag: "&l&6• &b{prefix} &1Builder &r&b{display_name}"
+Trial:
+  inheritance: [Knight]
+  permissions:
+  - core.bypass.fly
+  - core.bypass.mines
+  - core.command.fly
+  - core.command.me
+  - core.command.realname
+  - core.command.say
+  - core.command.teleport
+  - core.command.vip
+  - core.command.alias
+  - core.command.invsee
+  - core.command.case
+  - core.command.cases
+  - core.command.gmspc
+  - core.command.staff
+  - core.command.warn
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&eTrainee&r&7] &f{display_name} &r&r&l&e» &r&e{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &eTrainee &r&f{display_name}"
+Moderator:
+  inheritance: [Trial]
+  permissions: []
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&aMod&r&7] &f{display_name} &r&l&a» &r&e{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &aMod &r&f{display_name}"
+HeadMod:
+  inheritance: [Moderator]
+  permissions: []
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&fHead&aMod&r&7] &f{display_name} &r&l&a» &r&e{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &fHead&aMod &r&f{display_name}"
+Admin:
+  inheritance: [Moderator]
+  permissions:
+  - core.command.adminhome
+  - core.command.god
+  - core.command.seehome
+  - -core.command.size
+  - core.command.top
+  - core.command.chateffect
+  - core.colorchat.bypass
+  - core.coloredMessages
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&bAdmin&r&7] &f{display_name} &r&l&b» &r&e{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &bAdmin &r&f{display_name}"
+HeadAdmin:
+  inheritance: [Admin]
+  permissions:
+  - core.chat.rainbow
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&fHead&bAdmin&r&7] &f{display_name} &r&l&b» &r&e{msg}"
+  nametag: "l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &fHead&bAdmin &r&f{display_name}"
+CoOwner:
+  inheritance: [HeadAdmin]
+  permissions: []
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&0CoOwner&r&7] &f{display_name} &r&l&b» &r&e{msg}"
+  nametag: "l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &0CoOwner &r&f{display_name}"
+Owner:
+  inheritance: [CoOwner]
+  permissions: []
+  chat: "&7[&9{fac_rank}{fac_name}&7][&l&b{prefix}&r&7|&b&l{prestige}&r&7][&a{suffix}&7][&l&cO&6w&en&ae&br&r&7] &6{display_name} &r&l&4» &r&a{msg}"
+  nametag: "&l&6• &b[{prefix}|&b&l{prestige}] &e{ping}ms&r &cO&6w&en&ae&br &r&6{display_name}"
+...

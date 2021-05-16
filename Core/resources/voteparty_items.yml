@@ -1,0 +1,73 @@
+---
+-
+  atlas_gem: []
+-
+  vote_key:
+    count: 1-16
+-
+  rainbow_lucky_block:
+    count: 1-32
+-
+  broken_key:
+    count: 1-10
+-
+  enchanted_diamond_apple:
+    count: 1-32
+-
+  experience_bottle2(100):
+    count: 1-32
+-
+  money_note(1, 10000000): []
+-
+  rare_book:
+    count: 1-10
+-
+  ultra_key:
+    count: 1-16
+-
+  diamond_sword:
+    name: "&6Voter Legendary Sword"
+    enchants:
+      excalibur: 5
+      soulbound: 5
+      hallucination: 5
+      autorepair: 5
+-
+  hestia_gem: []
+-
+  common_book:
+    count: 1-10
+-
+  uncommon_book:
+    count: 1-5
+-
+  rare_book:
+    count: 1-3
+-
+  mythic_book: []
+-
+  gold_block:
+    count: 500
+-
+  diamond_block:
+    count: 100
+-
+  diamond_pickaxe:
+    name: "&bDiamond Pickaxe"
+    enchants:
+      autorepair: 5
+      quickening: 5
+-
+  diamond_shovel:
+    name: "&bDiamond Shovel"
+    enchants:
+      grind: 5
+      moneyfarm: 5
+      haste: 5
+      knockback: 1
+-
+  king_goblin_egg: []
+-
+  legendary_key:
+    count: 1-32
+...

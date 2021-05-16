@@ -1,0 +1,3 @@
+[submodule "Core/resources/lang"]
+	path = Core/resources/lang
+	url = https://github.com/CrowdMC/lang

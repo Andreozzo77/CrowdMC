@@ -1,0 +1,2 @@
+# GitHubConnection
+This is the version of GitHubConnection used in test server to keep up to date ONLY forked files. Do not try to use this version in the proudction server or use the production plugin in the dev server, it will cause unexpected behavior.	

@@ -1,0 +1,21 @@
+name: BuildTest
+main: kenygamer\BuildTest\Loader
+api: [3.0.0, 3.1.0]
+version: 2.0.0-beta
+depend: [FormAPI]
+softdepend: [MyPlot, LiveXYZ]
+
+author: kenygamer
+description: A PocketMine-MP plugin to automate build tests
+
+commands:
+  buildtest:
+    description: "Allows you to manage build tests."
+    usage: "/buildtest or /bt <create/list/instructions/info/approve/reject>"
+    permission: buildtest.command
+    aliases: ["bt"]
+    
+permissions:
+  buildtest.command:
+    description: "Allows access to the buildtest command."
+    default: op

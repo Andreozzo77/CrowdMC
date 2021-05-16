@@ -1,0 +1,118 @@
+---
+Normal:
+    - snowball:
+        count: 16
+    - "bucket:8":
+        count: 1
+    - "bucket:10":
+        count: 1
+    - flint_and_steel:
+        count: 1
+    - golden_apple:
+        count: 4
+    - steak:
+        count: 4
+    - raw_chicken:
+        count: 8
+    - "splash_potion:14": #Speed
+        count: 1
+    - "splash_potion:11": #Jump
+        count: 1
+    - "splash_potion:9": #Night Vision
+        count: 1
+    - book:
+        enchants:
+          protection: 1
+    - book:
+        enchants:
+          sharpness: 3
+    - book:
+        enchants:
+          fireaspect: 1
+    - cobweb:
+        count: 32
+    - ender_pearl:
+       count: 4
+    - tnt:
+        count: 6
+    - egg:
+        count: 32
+    - leather_helmet:
+        count: 1
+    - chain_helmet:
+        count: 1
+    - iron_helmet:
+        count: 1
+    - gold_helmet:
+        count: 1
+    - leather_tunic:
+        count: 1
+    - chain_chestplate:
+        count: 1
+    - iron_chestplate:
+        count: 1
+    - gold_chestplate:
+        count: 1
+    - leather_pants:
+        count: 1
+    - chain_leggings:
+        count: 1
+    - iron_leggings:
+        count: 1
+    - gold_leggings:
+        count: 1
+    - leather_boots:
+        count: 1
+    - chain_boots:
+        count: 1
+    - iron_boots:
+        count: 1
+    - gold_boots:
+        count: 1
+    - gold_pickaxe:
+        count: 1
+    - gold_shovel:
+        count: 1
+    - gold_sword:
+        count: 1
+    - iron_pickaxe:
+        count: 1
+    - iron_sword:
+        count: 1
+    - iron_shovel:
+        count: 1
+    - wooden_sword:
+        count: 1
+    - wooden_pickaxe:
+        count: 1
+    - wooden_shovel:
+        count: 1
+    - diamond:
+        count: 6
+    - gold_ingot:
+        count: 8
+    - iron_ingot:
+        count: 10
+    - log:
+        count: 32
+    - stone:
+        count: 32
+    - cobblestone:
+        count: 32
+    - wool:
+        count: 32
+    - stone_bricks:
+        count: 32
+    - brick_block:
+        count: 32
+    - quartz_block:
+        count: 32
+    - bow:
+        count: 1
+    - arrow:
+        count: 16
+    - compass:
+        count: 1
+New_Wave: []
+    
+...

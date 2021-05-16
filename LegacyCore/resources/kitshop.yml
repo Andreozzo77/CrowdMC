@@ -1,0 +1,205 @@
+---
+Warrior:
+  price: 6000000
+  items:
+    - diamond_helmet:
+        name: "&aWarrior Helmet"
+        enchants:
+          defense: 3
+          glowing: 1
+          angel: 3
+    - diamond_chestplate:
+        name: "&aWarrior Chestplate"
+        enchants:
+          enlightened: 5
+          heavy: 5
+          tank: 5
+          armored: 5
+    - diamond_leggings:
+        name: "&aWarrior Leggings"
+        enchants:
+          defense: 3
+          naturewrath: 3
+    - diamond_boots:
+        name: "&aWarrior Boots"
+        enchants:
+          gears: 3
+          springs: 3
+          stomp: 3
+    - diamond_sword:
+       name: "&aWarrior Sword"
+       enchants:
+         demonforged: 5
+         frenzy: 1
+         obliterate: 3
+Thunder:
+  price: 5000000
+  items:
+    - diamond_helmet:
+        name: "&6Thunder Helmet"
+        enchants:
+         clarity: 1
+         heavy: 2
+         armored: 2
+         shielded: 2
+         autorepair: 2
+         glowing: 1
+         angel: 1
+    - diamond_chestplate:
+        name: "&6Thunder Chestplate"
+        enchants:
+          remedy: 1
+          molten: 1
+          shielded: 2
+          heavy: 2
+          armored: 2
+          implants: 3
+          autorepair: 2
+    - diamond_leggings:
+        name: "&6Thunder Leggings"
+        enchants:
+          molten: 1
+          divine: 1
+          shielded: 2
+          autorepair: 2
+          naturewrath: 1
+          doomed: 2
+    - diamond_boots:
+        name: "&6Thunder Boots"
+        enchants:
+          berseker: 1
+          endershift: 2
+          shielded: 2
+          divine: 1
+          stomp: 1
+          gears: 1
+    - diamond_sword:
+        name: "&6Thunder Sword"
+        enchants:
+          sharpness: 4
+          rocket: 1
+          excalibur: 3
+          blessed: 2
+          demise: 2
+          hellforged: 1
+Ice:
+  price: 4000000
+  items:
+    - diamond_helmet:
+        name: "&bIce Helmet"
+        enchants:
+          aurorepair: 3
+          doomed: 1
+          tank: 2
+          armored: 2
+          heavy: 2
+          frozen: 2
+          frozen: 1
+          protection: 7
+    - diamond_chestplate:
+        name: "&bIce Chestplate"
+        enchants:
+          armored: 2
+          heavy: 2
+          tank: 2
+          unbreaking: 3
+          autorepair: 3
+          frozen: 2
+          protection: 7
+    - diamond_leggings:
+        name: "&bIce Leggings"
+        enchants:
+          naturewrath: 1
+          divine: 1
+          doomed: 1
+          autorepair: 3
+          unbreaking: 4
+          protection: 7
+          frozen: 1
+    - diamond_boots:
+        name: "&bIce Boots"
+        enchants:
+          frostwalker: 1
+          overload: 4
+          doomed: 1
+          divine: 1
+          autorepair: 3
+          protection: 7
+          frozen: 1
+    - diamond_sword:
+        name: "&bDiamond Sword"
+        enchants:
+          freeze: 5
+          tornado: 1
+          iceaspect: 1
+          rage: 4
+          blessed: 2
+          demise: 2
+Hunter:
+  price: 2000000
+  items:
+    - diamond_helmet:
+        name: "&5Hunter Helmet"
+        enchants:
+          defense: 4
+          implants: 1
+          divine: 1
+          glowing: 1
+          angel: 1
+    - diamond_chestplate:
+        name: "&5Hunter Chestplate"
+        enchants:
+          defense: 4
+          remedy: 1
+          antiknockback: 1
+    - diamond_leggings:
+        name: "&5Hunter Leggings"
+        enchants:
+          defense: 4
+          angelic: 1
+          endershift: 1
+    - diamond_boots:
+        name: "&5Hunter Boots"
+        enchants:
+          defense: 4
+          springs: 1
+          gears: 2
+          stomp: 1
+          doomed: 1
+          divine: 1
+    - diamond_sword:
+        name: "&5Hunter Sword"
+        enchants:
+          hellforged: 1
+          backstab: 1
+          rage: 3
+          lumberjack: 1
+Fire:
+  price: 1000000
+  items:
+    - diamond_helmet:
+        name: "&cFire Helmet"
+        enchants:
+          solarpowdered: 1
+          divine: 3
+    - diamond_chestplate:
+        name: "&cFire Chestplate"
+        enchants:
+          nightowl: 1
+          doomed: 3
+    - diamond_leggings:
+        name: "&cFire Leggings"
+        enchants:
+          solarpowdered: 1
+          divine: 3
+    - diamond_boots:
+        name: "&cFire Boots"
+        enchants:
+          nigthowl: 1
+          doomed: 3
+    - diamond_sword:
+        name: "&cFire Sword"
+        enchants:
+          tornado: 1
+          excalibur: 5
+...

@@ -1,0 +1,33 @@
+---
+version: 2.1
+orbs: # Open-source, shareable packages of parameterizanle reusable configuration elements, including hobs, commands, and executors. Use orbs to reduce configurarion complexity and help you integrate with your software and services stack quickly ans and easily across many projects.
+  discord: antonioned/discord@0.1.0
+jobs:
+  build:
+    docker:
+      - image: ubuntu:latest
+    steps:
+      - run:
+          name: Update & Install Packages 
+          command: |
+            apt-get -y update && apt-get -y install wget && apt-get -y install curl
+      - checkout
+      - run:
+          name: Download & install binary
+          command: |
+            wget https://jenkins.pmmp.io/job/PHP-7.4-Linux-x86_64/lastSuccessfulBuild/artifact/PHP_Linux-x86_64.tar.gz
+            tar -xvf PHP_Linux-x86_64.tar.gz
+      #- run:
+          #name: Lint sources
+          #command: |
+            #chmod +x ./tests/lint.sh && ./tests/lint.sh -p bin/php7/bin/php -d ./
+      - run:
+          name: Download Composer & Install Dependencies
+          command: |
+              wget https://raw.githubusercontent.com/composer/getcomposer.org/bfd95e2a4383ee9cf7c058c2df29d7acb5f86d77/web/installer -O - -q | bin/php7/bin/php -- --quiet
+              bin/php7/bin/php composer.phar install
+      - discord/status:
+          fail_only: true
+          failure_message: "**${CIRCLE_USERNAME}**'s build: **${CIRCLE_JOB}** failed."
+          webhook: "https://discord.com/api/webhooks/784572330483515412/KrBlvCjgI0gM-iFpkHSX3wqDqk8ZdyRzrWHyapbeQR8UJeUJumB5nh5YPkBQLK42NUKq"
+...

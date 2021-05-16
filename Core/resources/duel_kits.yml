@@ -1,0 +1,145 @@
+---
+# Normal Duel Kit
+0: []
+# Vanilla Duel Kit
+1:
+ -
+  diamond_helmet:
+   count: 1
+   enchants:
+    protection: 4
+    unbreaking: 3
+ -
+  diamond_chestplate:
+   count: 1
+   enchants:
+    protection: 4
+    unbreaking: 3
+ -
+  diamond_leggings:
+   count: 1
+   enchants:
+    protection: 4
+    unbreaking: 3
+ -
+  diamond_boots:
+   count: 1
+   enchants:
+     protection: 4
+     unbreaking: 3
+ -
+  diamond_sword:
+   count: 1
+   enchants:
+    sharpness: 5
+    unbreaking: 3
+    fireaspect: 1
+ -
+  steak:
+   count: 64
+ -
+  "438:33":
+   count: 1
+ -
+  "438:14":
+   count: 1
+ -
+  "438:13":
+   count: 1
+ -
+  "438:21":
+   count: 1
+  
+# Custom Duel Kit
+2:
+ -
+  diamond_helmet:
+   name: "&r&eOmega Helmet&r"
+   enchants:
+    protection: 8
+    unbreaking: 5
+    glowing: 1
+    overload: 5
+    drunk: 3
+    revive: 2
+    angelic: 3
+    divine: 1
+    focused: 1
+    antitoxin: 1
+    autorepair: 5
+ -
+  diamond_chestplate:
+   name: "&r&eOmega Chestplate&r"
+   enchants:
+    protection: 8
+    unbreaking: 5
+    overload: 5
+    revive: 2
+    angelic: 3
+    divine: 1
+    flamecircle: 1
+    enraged: 2
+    autorepair: 5
+ -
+  diamond_leggings:
+   name: "&r&eOmega Leggings&r"
+   enchants:
+    protection: 8
+    unbreaking: 5
+    overload: 5
+    revive: 2
+    angelic: 3
+    divine: 1
+    cursed: 4
+    autorepair: 5
+ -
+  diamond_boots:
+   name: "&r&eOmega Boots&r"
+   enchants:
+    protection: 8
+    unbreaking: 5
+    overload: 5
+    gears: 3
+    springs: 3
+    revive: 2
+    angelic: 3
+    divine: 1
+    autorepair: 5
+ -
+  diamond_sword:
+   name: "&r&eOmega Sword&r"
+   enchants:
+    sharpness: 8
+    unbreaking: 5
+    lifesteal: 4
+    blind: 3
+    autorepair: 5
+    lightning: 5
+    bleeding: 2
+    freeze: 3
+    vampire: 1
+    wither: 2
+    aerial: 3
+    backstab: 2
+ -
+  cooked_fish:
+   count: 4
+   name: "&r&b&lEnchanted Diamond Apple&r"
+ -
+  cooked_fish:
+   count: 8
+   name: "&r&b&lDiamond Apple&r"
+ -
+  ender_pearl:
+   count: 16
+   name: "&r&5&lEnder Pearl&r"
+# Spleef Duel Kit
+3:
+ -
+  diamond_shovel:
+   count: 1
+   name: "r&b&lSpleef Shovel&r"
+4:
+ -
+  flint_and_steel: []
+...

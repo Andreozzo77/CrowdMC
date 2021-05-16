@@ -1,0 +1,58 @@
+---
+"Lake of Fire":
+ pos1: "-1538:3:-1108"
+ pos2: "-1469:31:-1198"
+ spawn1: "-1502:18:-1175:180"
+ spawn2: "-1502:18:-1126:360"
+ world: duels
+ duelTypes: [0, 1, 2, 5]
+"Fairy's Playground":
+ pos1: "-1514:37:-974"
+ pos2: "-1588:3:-1075"
+ spawn1: "-1544:5:-1046:360"
+ spawn2: "-1551:5:-1003:180"
+ world: duels
+ duelTypes: [0, 1, 2, 5]
+"Mystical Forest":
+ pos1: "-1435:61:-1225"
+ pos2: "-1346:3:-1125"
+ spawn1: "-1392:10:-1149:180"
+ spawn2: "-1392:10:-1199:360"
+ world: duels
+ duelTypes: [0, 1, 2, 5]
+"Garden Square":
+ pos1: "-1365:3:-1068"
+ pos2: "-1424:39:-984"
+ spawn1: "-1395:5:-1004:180" 
+ spawn2: "-1395:5:-1048:360"
+ world: duels
+ duelTypes: [0, 1, 2, 5]
+"Wild West":
+ pos1: "-1726:3:-981"
+ pos2: "-1652:31:-1069"
+ spawn1: "-1689:5:-1040:360"
+ spawn2: "-1689:5:-1012:180"
+ world: duels
+ duelTypes: [0, 1, 2, 5]
+"Frozen Wasteland":
+ pos1: "-1588:104:-1073"
+ pos2: "-1659:17:-976"
+ spawn1: "-1621:63:-1048:360"
+ spawn2: "-1617:63:-1002:180"
+ world: duels
+ duelTypes: [0, 1, 2, 5]
+"Spleef":
+ pos1: "-1465:135:-1217"
+ pos2: "-1546:82:-1274"
+ spawn1: "-1520:105:-1231:180"
+ spawn2: "-1520:105:-1265:360"
+ world: duels
+ duelTypes: [3]
+"Tntrun":
+ pos1: "-1655:98:-1346"
+ pos2: "-1730:72:-1271"
+ spawn1: "-1693:81:-1288:180"
+ spawn2: "-1693:81:-1329:360"
+ world: duels
+ duelTypes: [4]
+...

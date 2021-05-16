@@ -1,0 +1,19 @@
+name: Core
+main: kenygamer\Core\Main
+api: 3.0.0
+version: 2.0.0
+php: 7.2
+load: POSTWORLD
+author: kenygamer
+website: kenygamer.com
+
+permissions:
+  core.coloredMessages:
+    description: "Allows player to use colored messages"
+    default: op
+  core.vaults.see:
+    description: "Allows player to view other vaults"
+    default: op
+  core.vehicle.drive:
+    description: "Allows player to drive vehicles."
+    default: op

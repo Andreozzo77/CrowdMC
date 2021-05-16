@@ -1,0 +1,1173 @@
+---
+##### STARTER KIT
+starter:
+  cooldown: 150 # 2.5 minutes
+  items:
+    - leather_cap:
+        name: "&bLeather Cap"
+        enchants:
+          protection: 1
+    - leather_tunic:
+        name: "&bLeather Tunic"
+        enchants:
+         protection: 1
+    - leather_pants:
+        name: "&bLeather Pants"
+        enchants:
+          protection: 1
+    - leather_boots:
+        name: "&bLeather Boots"
+        enchants:
+          protection: 1
+    - gold_sword:
+        name: "&eGold Sword"
+        enchants:
+          deathbringer: 1
+    - stone_pickaxe:
+        name: "&bWooden Pickaxe"
+        enchants:
+          efficiency: 1
+    - golden_apple:
+        count: 1
+    - steak:
+        count: 1
+    - ender_pearl:
+        count: 1
+##### ARCHER KIT
+archer:
+  cooldown: 300 # 5 minutes
+  items:
+    - leather_cap:
+        name: "&bLeather Cap"
+    - leather_tunic:
+        name: "&bLeather Tunic"
+    - leather_pants:
+        name: "&bLeather Pants"
+    - leather_boots:
+        name: "&bLeather Boots"
+    - golden_apple:
+        count: 1
+    - steak:
+        count: 32
+    - ender_pearl:
+        count: 1
+    - bow:
+        name: "&bBow"
+        enchants:
+          longbow: 1
+    - golden_apple:
+        count: 1
+    - steak:
+        count: 32
+    - "potion:invisibility":
+        count: 1
+##### PVP KIT
+pvp:
+  cooldown: 600 # 10 minutes
+  items:
+    - diamond_helmet:
+        name: "&bDiamond Helmet"
+        enchants:
+          protection: 1
+          unbreaking: 1
+          angelic: 1
+          focused: 1
+    - diamond_chestplate:
+        name: "&bDiamond Chestplate"
+        enchants:
+          protection: 1
+          unbreaking: 1
+          vitamins: 1
+          cursed: 1
+    - diamond_leggings:
+        name: "&bDiamond Leggings"
+        enchants:
+          protection: 1
+          unbreaking: 1
+          obsidianshield: 1
+          autorepair: 1
+          nutrition: 1
+    - diamond_boots:
+        name: "&bDiamond Boots"
+        enchants:
+          protection: 1
+          unbreaking: 1
+          gears: 1
+          springs: 1
+    - diamond_sword:
+        name: "&bDiamond Sword"
+        enchants:
+          lifesteal: 1
+          rage: 1
+          blessed: 1
+    - golden_apple:
+        count: 3
+    - steak:
+        count: 32
+    - ender_pearl:
+        count: 5
+    - lucky_block:
+        count: 3
+##### SHARD KIT TODO
+shard:
+  cooldown: 900 # 15 minutes
+  items:
+    - chain_helmet:
+        name: "&bChain Helmet"
+        enchants:
+          heavy: 1
+    - chain_chestplate:
+        name: "&bChain Chestplate"
+        enchants:
+          overload: 1
+          armored: 1
+    - chain_leggings:
+        name: "&bChain Leggings"
+        enchants:
+          overload: 1
+          tank: 1
+    - chain_boots:
+        name: "&bChain Boots"
+        enchants:
+          gears: 1
+          springs: 1
+    - stone_sword:
+        name: "&bStone Sword"
+        enchants:
+          deathbringer: 2
+          rage: 1
+          lifesteal: 1
+    - stone_pickaxe:
+        name: "&bStone Pickaxe"
+        enchants:
+          autorepair: 1
+          haste: 2
+    - stone_shovel:
+        name: "&bStone Shovel"
+        enchants:
+          autorepair: 1
+          haste: 1
+    - stone_axe:
+        name: "&bStone Axe"
+        enchants:
+          autorepair: 1
+          haste: 1
+    - apple:
+        count: 20
+    - golden_apple:
+        count: 3
+##### HARPY KIT
+harpy:
+  cooldown: 1800 # 30 minutes
+  items:
+    - diamond_helmet:
+        name: "&bDiamond Helmet"
+        enchants:
+          protection: 2
+          unbreaking: 2
+          armored: 1
+          angel: 1
+          autorepair: 1
+    - diamond_chestplate:
+        name: "&bDiamond Chestplate"
+        enchants:
+          protection: 2
+          unbreaking: 2
+          vitamins: 1
+          shield: 1
+          antiknockback: 1
+    - diamond_leggings:
+        name: "&bDiamond Leggings"
+        enchants:
+          protection: 2
+          unbreaking: 2
+          sash: 1
+          endershift: 1
+          autorepair: 1
+    - diamond_boots:
+        name: "&bDiamond Boots"
+        enchants:
+          protection: 2
+          unbreaking: 2
+          gears: 1
+          springs: 2
+          soulbound: 1
+    - diamond_sword:
+        name: "&bDiamond Sword"
+        enchants:
+          sharpness: 2
+          rage: 2
+          blessed: 1
+          lifesteal: 1
+          obliterate: 1
+          unbreaking: 1
+    - gold_pickaxe:
+        name: "&eGold Pickaxe"
+        enchants:
+          efficiency: 1
+          unbreaking: 1
+          haste: 1
+          autorepair: 1
+          driller: 1
+          soulvound: 1
+    - golden_apple:
+        count: 6
+    - steak:
+        count: 32
+    - lucky_block:
+        count: 5
+##### FURY KIT
+fury:
+  cooldown: 3600 # 1 hour
+  items:
+    - diamond_helmet:
+        name: "&bDiamond Helmet"
+        enchants:
+          protection: 2
+          unbreaking: 3
+          heavy: 1
+          glowing: 1
+          implants: 1
+          overload: 1
+    - diamond_chestplate:
+        name: "&bDiamond Chestplate"
+        enchants:
+          protection: 2
+          unbreaking: 3
+          overload: 1
+          cursed: 1
+          revive: 1
+          defense: 1
+    - diamond_leggings:
+        name: "&bDiamond Leggings"
+        enchants: 
+          protection: 2
+          unbreaking: 3
+          overload: 1
+          shield: 2
+          angel: 1
+          endershift: 2
+    - diamond_boots:
+        name: "&bDiamond Boots"
+        enchants:
+          protection: 2
+          unbreaking: 3
+          overload: 1
+          gears: 2
+          springs: 2
+    - diamond_sword:
+        name: "&bDiamond Sword"
+        enchants:
+          sharpness: 2
+          unbreaking: 2
+          soulbound: 1
+          gooey: 1
+          blind: 1
+          lifesteal: 1
+    - golden_pickaxe:
+        name: "&eGolden Pickaxe"
+        enchants:
+          haste: 2
+          quickening: 1
+          autorepair: 1
+    - golden_apple:
+        count: 11
+    - lucky_block:
+        count: 8
+    - common_book:
+        count: 2
+##### KNIGHT KIT TODO TIME
+knight:
+  cooldown: 7200 # 2 hours
+  items:
+    - diamond_helmet:
+        name: "&aKnight Helmet"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 2
+          tank: 1
+          clarity: 1
+          focused: 1
+    - diamond_chestplate:
+        name: "&aKnight Chestplate"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 2
+          evasion: 1
+          armored: 1
+          revive: 1
+    - diamond_leggings:
+        name: "&aKnight Leggings"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 2
+          nutrition: 2
+          angel: 1
+          angelic: 1 
+    - diamond_boots:
+        name: "&aKnight Boots"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 2
+          molten: 1
+          gears: 2
+          springs: 2
+    - diamond_sword:
+        name: "&aKnight Sword"
+        enchants:
+          sharpness: 2
+          lifesteal: 3
+          blind: 2
+          soulbound: 2
+          curse: 1
+          wither: 1
+    - diamond_pickaxe:
+        name: "&aKnight Pickaxe"
+        enchants:
+          haste: 3
+          energizing: 1
+          driller: 1
+          soulbound: 2
+          moneyfarm: 1
+    - golden_apple:
+       count: 10
+    - enchanted_golden_apple:
+       count: 3
+    - lucky_block:
+       count: 12
+    - common_book:
+       count: 5
+##### BARBARIAN KIT TODO TIME
+barbarian:
+  cooldown: 10800 # 3 hours
+  items:
+    - diamond_helmet:
+        name: "&4Barbarian Helmet"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 3
+          autorepair: 1
+          angelic: 1
+    - diamond_chestplate:
+        name: "&4Barbarian Chestplate"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 3
+          endershift: 1
+          angel: 1
+    - diamond_leggings:
+        name: "&4Barbarian Leggings"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 3
+          shield: 1
+          revive: 1
+          tank: 1
+    - diamond_boots:
+        name: "&4Barbarian Boots"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 3
+          armored: 1
+          springs: w
+    - diamond_sword:
+        name: "&4Barbarian Sword"
+        enchants:
+          sharpness: 3
+          unbreaking: 1
+          fireaspect: 1
+          vampire: 1
+          curse: 1 
+          rage: 2
+    - diamond_pickaxe:
+        name: "&4Barbarian Pickaxe"
+        enchants:
+          efficiency: 1
+          haste: 2
+          driller: 2
+          quickening: 2
+          soulbound: 1
+          moneyfarm: 2
+    - golden_apple:
+        count: 10
+    - enchanted_golden_apple:
+        count: 5
+    - lucky_block:
+        count: 12
+    - uncommon_book:
+        count: 3
+##### VIP KIT TODO TIME
+vip:
+  cooldown: 21600 # 6 hours
+  items:
+    - diamond_helmet:
+        name: "&aVIP Helmet"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 4
+          autorepair: 1
+          angelic: 1
+    - diamond_chestplate:
+        name: "&aVIP Chestplate"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 4
+          endershift: 2
+          angel: 1
+          autorepair: 1
+    - diamond_leggings:
+        name: "&aVIP Leggings"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 4
+          shield: 1
+          revive: 1
+          tank: 1
+    - diamond_boots:
+        name: "&aVIP Boots"
+        enchants:
+          protection: 3
+          unbreaking: 3
+          overload: 4
+          armored: 2
+          springs: 2
+    - diamond_sword:
+        name: "&aVIP Sword"
+        enchants:
+          sharpness: 3
+          unbreaking: 1
+          fireaspect: 1
+          vampire: 1
+          curse: 1
+          rage: 2
+          lifesteal: 2
+          soulbound: 1
+    - diamond_pickaxe:
+        name: "&aVIP Pickaxe"
+        enchants:
+          efficiency: 1
+          unbreaking: 1
+          haste: 3
+          driller: 2
+          energizing: 2
+          soulbound: 2
+          moneyfarm: 2
+    - enchanted_golden_apple:
+        count: 5
+    - diamond_apple:
+        count: 1
+    - uncommon_book:
+        count: 3
+##### MVP KIT
+mvp:
+  cooldown: 43200 # 12 hours
+  items:
+    - diamond_helmet:
+        name: "&6MVP Helmet"
+        enchants:
+          protection: 4
+          unbreaking: 3
+          overload: 5
+          implants: 2
+          focused: 1
+          antitoxin: 1
+    - diamond_chestplate:
+        name: "&6MVP Chestplate"
+        enchants:
+          protection: 4
+          unbreaking: 3
+          overload: 5
+          tank: 1
+          autorepair: 1
+          angelic: 1
+    - diamond_leggings:
+        name: "&6MVP Leggings"
+        enchants:
+          protection: 4
+          unbreaking: 3
+          overload: 5
+          heavy: 1
+          angel: 1
+          endershift: 2
+    - diamond_boots:
+        name: "&6MVP Boots"
+        enchants:
+          protection: 4
+          unbreaking: 3
+          overload: 5
+          armored: 1
+          gears: 2
+          springs: 2
+          soulbound: 2
+    - diamond_sword:
+        name: "&6MVP Sword"
+        enchants:
+          sharpness: 4
+          unbreaking: 2
+          wither: 2
+          lifesteal: 2
+          rage: 2
+          blind: 2
+          blessed: 2
+          soulbound: 2
+    - diamond_pickaxe:
+        name: "&6MVP Pickaxe"
+        enchants:
+          efficiency: 2
+          unbreaking: 2
+          haste: 3
+          driller: 3
+          moneyfarm: 3
+          grind: 1
+          soulbound: 2
+    - enchanted_golden_apple:
+        count: 10
+    - diamond_apple:
+        count: 3
+    - lucky_block:
+        count: 15
+    - common_book:
+        count: 3
+    - uncommon_book:
+        count: 1
+    - rare_book:
+        count: 1
+##### ULTRA KIT
+ultra:
+  cooldown: 86400 # 1 day
+  items:
+    - diamond_helmet:
+        name: "&5&lUltra Helmet"
+        enchants:
+          protection: 5
+          unbreaking: 4
+          cursed: 1
+          angel: 2
+          divine: 1
+          soulbound: 1
+    - diamond_chestplate:
+        name: "&5&lUltra Chestplate"
+        enchants:
+          protection: 5
+          unbreaking: 4
+          overload: 6
+          enlighten: 1
+          shield: 1
+          revive: 1
+          armored: 2
+    - diamond_leggings:
+        name: "&5&lUltra Leggings"
+        enchants:
+          protection: 5
+          overload: 6
+          heavy: 2
+          obsidianshield: 1
+          autorepair: 2
+    - diamond_boots:
+        name: "&5&lUltra Boots"
+        enchants:
+          protection: 5
+          unbreaking: 4
+          overload: 6
+          angelic: 2
+          tank: 2
+          gears: 2
+          springs: 2
+    - diamond_sword:
+        name: "&5&lUltra Sword"
+        enchants:
+          sharpness: 5
+          unbreaking: 3
+          wither: 3
+          lifesteal: 3
+          rage: 4
+          blessed: 3
+    - diamond_pickaxe:
+        name: "&5&lUltra Pickaxe"
+        enchants:
+          efficiency: 3
+          unbreaking: 3
+          haste: 4
+          driller: 4
+          moneyfarm: 4
+          grind: 2
+          soulbound: 1
+    - enchanted_golden_apple:
+        count: 15
+    - diamond_apple:
+        count: 2
+    - lucky_block:
+        count: 20
+    - common_book:
+        count: 3
+    - uncommon_book:
+       count: 3
+    - rare_book:
+       count: 3
+##### LEGEND KIT
+legend:
+  cooldown: 172800 # 2 days
+  items:
+    - diamond_helmet:
+        name: "&9&lLegend Helmet"
+        enchants:
+          protection: 6
+          unbreaking: 5
+          overload: 7
+          divine: 1
+          defense: 1
+          glowing: 1
+          revive: 2
+    - diamond_chestplate:
+        name: "&9&lLegend Chestplate"
+        enchants:
+          protection: 6
+          unbreaking: 5
+          overload: 7
+          heavy: 3
+          endershift: 2
+          angelic: 3
+    - diamond_leggings:
+        name: "&9&lLegend Leggings"
+        enchants:
+          protection: 6
+          unbreaking: 5
+          overload: 7
+          sash: 1
+          poisoned: 1
+          obsidianshield: 1
+    - diamond_boots:
+        name: "&9&lLegend Boots"
+        enchants:
+          protection: 6
+          unbreaking: 5
+          overload: 7
+          tank: 3
+          stomp: 1
+          shield: 2
+    - diamond_sword:
+        name: "&9&lLegend Sword"
+        enchants:
+          sharpness: 6
+          unbreakkng: 4
+          lifesteal: 4
+          wither: 4
+          poison: 3
+          rage: 5
+          autorepair: 3
+          blessed: 3
+    - diamond_pickaxe:
+        name: "&9&lLegend Pickaxe"
+        enchants:
+          sharpness: 6
+          unbreaking: 4
+          haste: 5
+          driller: 5
+          moneyfarm: 5
+          grind: 3
+          soulbound: 3
+    - diamond_apple:
+        count: 6
+    - lucky_block:
+        count: 30
+    - common_book:
+        count: 11
+    - uncommon_book:
+        count: 11
+    - rare_book:
+        count: 5
+##### ULTIMATE KIT
+ultimate:
+  cooldown: 259200 # 3 days
+  items:
+    - diamond_helmet:
+        name: "&c&lUltimate Helmet"
+        enchants:
+          overload: 8
+          glowing: 1
+          divine: 2
+          implants: 3
+          focused: 2
+          angel: 2
+          soulbound: 3
+    - diamond_chestplate:
+        name: "&c&lUltimate Chestplate"
+        enchants:
+          overload: 8
+          antiknockback: 1
+          divine: 2
+          antitoxin: 1
+          defense: 2
+          angel: 2
+          soulbound: 2
+    - diamond_leggings:
+        name: "&c&lUltimate Leggings"
+        enchants:
+          overload: 8
+          angelic: 4
+          divine: 2
+          obsidianshield: 1
+          cursed: 3
+          angel: 2
+          soulbound: 3
+    - diamond_boots:
+        name: "&c&lUltimate Boots"
+        enchants:
+          overload: 8
+          springs: 3
+          gears: 3
+          divine: 2
+          endershift: 3
+          frozen: 2
+          soulbound: 3
+    - diamond_sword:
+        name: "&c&lUltimate Sword"
+        enchants:
+          excalibur: 3
+          headless: 1
+          critical: 3
+          cripple: 5
+          wither: 5
+          fireaspect: 2
+          soulbound: 2
+    - diamond_pickaxe:
+        name: "&c&lUltimate Pickaxe"
+        enchants:
+          haste: 5
+          energizing: 3
+          treasurehunter: 3
+          minerluck: 2
+          keyplus: 1
+          autorepair: 4
+          soulbound: 3
+          minerluck: 1
+    - diamond_apple:
+        count: 12
+    - lucky_block:
+        count: 40
+    - common_book:
+        count: 20
+    - uncommon_book:
+        count: 12
+    - rare_book:
+        count: 10
+    - mythic_book:
+        count: 1
+##### JUNIORYT KIT
+junioryt:
+  cooldown: 345600 # 4 days
+  items:
+   - diamond_helmet:
+       name: "&l&fJunior&cYT &eHelmet"
+       enchants:
+         
+   - diamond_chestplate:
+       name: "&l&fJunior&cYT &eChestplate"
+       enchants:
+         overload: 3
+         soulbound: 1
+         tank: 3
+         revive: 1
+         angel: 1
+   - diamond_leggings:
+       name: "&l&fJunior&cYT &eLeggings"
+       enchants:
+         overload: 3
+         soulbound: 1
+         angelic: 1
+         slash: 1
+   - diamond_boots:
+       name: "&l&fJunior&cYT &eBoots"
+       enchants:
+         overload: 3
+         soulbound: 1
+         shielded: 2
+         springs: 1
+         gears: 1
+   - diamond_sword:
+       name: "&l&fJunior&cYT &eSword"
+       enchants:
+         excalibur: 1
+         disarmor: 1
+         rage: 3
+         autorepair: 2
+         lifesteal: 2
+         wither: 2
+         soulbound: 1
+   - diamond_pickaxe:
+       name: "&l&fJunior&cYT &ePickaxe"
+       enchants:
+         grind: 1
+         moneyfarm: 1
+         soulbound: 1
+         autorepair: 1
+         haste: 2
+         driller: 2
+   - diamond_axe:
+       name: "&l&fJunior&cYT &eAxe"
+       enchants:
+         insanity: 2
+         disarmour: 1
+         rage: 3
+         autorepair: 1
+         haste: 2
+         driller: 2
+   - diamond_shovel:
+       name: "&l&fJunior&cYT &eShovel"
+       enchants:
+         moneyfarm: 1
+         soulbound: 1
+         autorepair: 1
+         haste: 2
+   - bow:
+       name: "&l&fJunior&cYT &eBow"
+       enchants:
+         paralyse: 1
+         soulbound: 1
+         longbow: 2
+         autorepair: 2
+         bowlifesteal: 3
+         headhunter: 1
+##### YOUTUBER KIT
+youtuber:
+  cooldown: 432000 # 5 days
+  items:
+    - diamond_helmet:
+        name: "&l&fYou&cTuber &eHelmet"
+        enchants:
+          divine: 1
+          soulbound: 1
+          overload: 4
+          antitoxin: 1
+          implants: 2
+          revive: 2
+          drunk: 4
+          glowing: 1
+    - diamond_chestplate:
+        name: "&l&fYou&cTuber &eChestplate"
+        enchants:
+          divine: 1
+          soulbound: 1
+          vitamins: 1
+          overload: 6
+          revive: 2
+          angel: 2
+    - diamond_leggings:
+        name: "&l&fYou&cTuber &eLeggings"
+        enchants:
+          overload: 6
+          soulbound: 1
+          sash: 1
+          angelic: 4
+    - diamond_boots:
+        name: "&l&fYou&cTuber &eBoots"
+        enchants:
+          overload: 6
+          soulbound: 1
+          shileded: 3
+          gears: 2
+          springs: 2
+    - diamond_sword:
+        name: "&l&fYou&cTuber &eSword"
+        enchants:
+          excalibur: 1
+          soulbound: 1
+          curse: 2
+          disarmor: 3
+          autorepair: 2
+          rage: 4
+          blessed: 1
+          cripple: 4
+    - diamond_pickaxe:
+        name: "&l&fYou&cTuber &ePickaxe"
+        enchants:
+          moneyfarm: 1
+          grind: 1
+          soulbound: 1
+          driller: 4
+          autorepair: 2
+          haste: 4
+    - diamond_shovel:
+        name: "&l&fYou&cTuber &eShovel"
+        enchants:
+          moneyfarm: 1
+          soulbound: 1
+          autorepair: 2
+          haste: 4
+    - diamond_axe:
+        name: "&l&fYou&cTuber &eAxe"
+        enchants:
+          insanity: 3
+          soulbound: 1
+          critical: 1
+          cripple: 4
+          blessed: 1
+          autorepair: 2
+          rage: 4
+    - bow:
+        name: "&l&fYou&cTuber &eBow"
+        enchants:
+          longbow: 4
+          soulbound: 1
+          paralyze: 2
+          headhunter: 2
+          volley: 2
+          virus: 1
+          autorepair: 2
+          bowlifesteal: 4
+    - common_book:
+        count: 25
+    - uncommon_book:
+        count: 10
+    - rare_book:
+        count: 5
+    - lucky_block:
+        count: 25
+    - diamond_apple:
+        count: 5
+    - enchanted_golden_apple:
+        count: 25
+##### NIGHTMARE KIT
+nightmare:
+  cooldown: 518400 # 6 days
+  items:
+    - diamond_helmet:
+        name: "&l&4Night&6mare &bHelmet"
+        enchants:
+          divine: 2
+          doomed: 2
+          endershift: 3
+          soulbound: 4
+          defense: 2
+          shrink: 1
+          focused: 3
+          evasion: 4
+          revive: 4
+          shielded: 3
+          curse: 4
+          autorepair: 4
+          protection: 9
+          overload: 9
+    - diamond_chestplate:
+        name: "&l&4Night&6mare &bChestplate"
+        enchants:
+          divine: 2
+          remedy: 1
+          flamecircle: 1
+          doomed: 2
+          vitamins: 1
+          soulbound: 3
+          tank: 4
+          heavy: 4
+          autorepair: 4
+          shrink: 1
+          revive: 4
+          evasion: 4
+          protection: 9
+          overload: 9
+    - diamond_leggings:
+        name: "&l&4Night&6mare &bLeggings"
+        enchants:
+          naturewrath: 1
+          doomed: 2
+          creeperarmor: 1
+          defense: 3
+          endershift: 3
+          soulbound: 3
+          overload: 9
+          autorepair: 4
+          shrink: 1
+          evasion: 4
+          revive: 4
+          cursed: 4
+          nutrition: 4
+          protection: 9
+    - diamond_boots:
+        name: "&l&4Night&6mare &bBoots"
+        enchants:
+          divine: 2
+          doomed: 2
+          defense: 2
+          endershift: 3
+          overload: 9
+          autorepair: 4
+          shrink: 1
+          evasion: 4
+          cursed: 4
+          protection: 9
+    - diamond_pickaxe:
+        name: "&l&4Night&6mare &bPickaxe"
+        enchants:
+          treasurehunter: 4
+          soulbound: 4
+          keyplus: 3
+          minerluck: 9
+          moneyfarm: 9
+          grind: 7
+          autorepair: 4
+          quickening: 4
+          energizing: 4
+          haste: 4
+    - diamond_axe:
+        name: "&l&4Night&6mare &bAxe"
+        enchants:
+          corrupt: 4
+          hellforged: 1
+          curse: 1
+          drain: 7
+          skillswipe: 9
+          bleeding: 3
+          disarmprotection: 1
+          insanity: 6
+          cripple: 3
+          headless: 1
+          disarming: 4
+          poison: 3
+          sharpness: 9
+    - rare_book:
+        count: 5
+    - mythic_book:
+        count: 3
+    - lucky_block:
+        count: 30
+##### UNIVERSE KIT
+universe:
+  cooldown: 604800 # 7 days
+  items:
+    - diamond_helmet:
+        name: "&l&cUnive&5rse &bHelmet"
+        enchants:
+          divine: 2
+          doomed: 2
+          endershift: 4
+          soulbound: 5
+          defense: 2
+          overload: 10
+          shrink: 2
+          focused: 3
+          evasion: 5
+          revive: 4
+          shielded: 4
+          cursed: 4
+          glowing: 1
+          autorepair: 4
+          protection: 10
+    - diamond_chestplate:
+        name: "&l&cUnive&5rse &bChestplate"
+        enchants:
+          divine: 2
+          remedy: 1
+          flamecircle: 3
+          doomed: 2
+          vitamins: 1
+          soulbound: 5
+          tank: 4
+          heavy: 4
+          armored: 4
+          overload: 10
+          autorepair: 4
+          shrink: 2
+          revive: 4
+          evasion: 5
+          protection: 10
+    - diamond_leggings:
+        name: "&l&cUnive&5rse &bLeggings"
+        enchants:
+          naturewrath: 3
+          doomed: 2
+          creeperarmor: 3
+          defense: 3
+          endershift: 4
+          soulbound: 5
+          overload: 10
+          tank: 4
+          heavy: 4
+          armored: 4
+          autorepair: 4
+          shrink: 2
+          evasion: 5
+          revive: 4
+          cursed: 4
+          obsidianshield: 1
+          angelic: 4
+          nutrition: 4
+          protection: 10
+    - diamond_boots:
+        name: "&l&cUnive&5rse &bBoots"
+        enchants:
+          doomed: 2
+          defense: 3
+          endershift: 4
+          tank: 4
+          heavy: 4
+          armored: 4
+          overload: 10
+          soulbound: 5
+          autorepair: 4
+          shrink: 2
+          evasion: 5
+          cursed: 4
+          protection: 10
+    - diamond_axe:
+        name: "&l&cUnive&5rse &bAxe"
+        enchants:
+          corrupt: 4
+          hellforged: 2
+          curse: 3
+          gravity: 3
+          antigravity: 3
+          drain: 7
+          skillswipe: 9
+          vacuum: 1
+          bleeding: 3
+          disarmprotection: 1
+          insanity: 7
+          cripple: 4
+          headless: 1
+          disarming: 6
+          poison: 4
+          wither: 4
+          lifesteal: 5
+          sharpness: 10
+    - diamond_pickaxe:
+        name: "&l&cUnive&5rse &bPickaxe"
+        enchants:
+          keyplus: 5
+          minerluck: 10
+          moneyfarm: 10
+          grind: 10
+          autorepair: 4
+          quickening: 4
+          energizing: 4
+          haste: 4
+          efficiency: 10
+          fortune: 3
+    - mythic_book:
+        count: 15
+    - rare_book:
+        count: 22
+    - uncommon_book:
+        count: 20
+    - common_book:
+        count: 32
+    - lucky_block:
+        count: 64
+    - rainbow_lucky_block:
+        count: 15
+    - diamond_apple:
+        count: 16
+    - lemon:
+        count: 1
+
+...

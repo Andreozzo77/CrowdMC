@@ -1,0 +1,44 @@
+name: CustomEnchants
+main: CustomEnchants\Main
+version: 1.5.2
+api: [3.0.0, 4.0.0]
+load: POSTWORLD
+author: kenygamer
+loadbefore: [LegacyCore]
+permissions:
+  customenchants:
+    default: false
+    description: "Use everything in CustomEnchants"
+    children:
+      customenchants.bypassenchantlimit:
+        default: false
+        description: "Allows you to bypass the enchant limit"
+      customenchants.command.enchanter:
+        default: true
+        description: "Buy custom enchanted book with Exp"
+      customenchants.command.ceremove:
+        default: true
+        description: "Allows you to remove enchant of an item and return it in form of book"
+      customenchants.command:
+        default: op
+        description: "use all CustomEnchants commands"
+        children:
+          customenchants.command.ce:
+            default: op
+            description: "Use /customenchant"
+            children:
+              customenchants.command.ce.enchant:
+                default: op
+                description: "Use /customenchant enchant"
+              customenchants.command.ce.help:
+                default: true
+                description: "Use /customenchant help"
+              customenchants.command.ce.info:
+                default: true
+                description: "Use /customenchant info"
+              customenchants.command.ce.list:
+                default: op
+                description: "Use /customenchant list"
+      customenchants.overridecheck:
+        default: false
+        description: "Override the check and enchant any item with any enchant"

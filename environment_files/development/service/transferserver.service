@@ -1,0 +1,13 @@
+[Unit]
+Description=transferserver
+Requires=network.target
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/bash /home/transferserver.sh restart
+ExecStop=/bin/bash /home/transferserver.sh stop
+
+[Install]
+WantedBy=multi-user.target

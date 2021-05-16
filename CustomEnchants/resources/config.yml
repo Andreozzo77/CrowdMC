@@ -1,0 +1,24 @@
+
+# The color of an enchant depending on rarity
+# List of available colors:
+# black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, and white.
+color:
+  common: aqua
+  uncommon: yellow
+  rare: gold
+  mythic: red
+# Enable to use forms (UIs) REQUIRES FormAPI by Jojoe77777
+forms:
+  enabled: false
+# Disable to prevent fire from Blaze enchant
+blaze:
+  flames: false
+# Rare Drop(s) from Chicken enchant ("id:meta:amount"), if multiple, will randomly chose a drop
+chicken:
+  rare-drop: ["266:0:1"]
+# Leave empty to allow jetpacks anywhere, or add worlds where jetpacks will be disabled: ["PvPArena", "AnotherWorld"]
+jetpack:
+  disabled: ["prison", "hub", "warzone"]
+# Disable to prevent fire from Lightning enchant
+lightning:
+  flames: false

@@ -1,0 +1,7 @@
+name: GitHubConnection
+main: kenygamer\GitHubConnection\Main
+api: 3.9.7
+version: 1.3.0-stable
+author: kenygamer
+website: kenygamer.com
+description: Keep plugins up to date with the latest data from GitHub

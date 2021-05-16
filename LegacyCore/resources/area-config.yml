@@ -1,0 +1,39 @@
+# Config file for Area Protection;
+
+# Settings for unprotected areas in worlds without specific settings:
+Default:
+
+  # Keep players from getting hurt?
+  God: false
+
+  # Keep players from editing the world?
+  Edit: false
+
+  # Keep players from touching blocks and activating things like chests?
+  Touch: false
+  
+  # Keep players from shooting
+  Shooting: false
+
+# Settings for unprotected areas in individual worlds:
+Worlds:
+  prison:
+    God: true
+    Edit: true
+    Touch: true
+    Shooting: true
+  maze:
+    God: true
+    Edit: true
+    Touch: true
+    Shooting: true
+  duels:
+    God: false
+    Edit: true
+    Touch: false
+    Shooting: false
+  minigames:
+    God: true
+    Edit: true
+    Touch: true
+    Shooting: true
