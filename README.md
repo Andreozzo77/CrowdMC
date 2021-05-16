@@ -8,7 +8,7 @@ The CrowdMC files are now open source. A couple of tips before you start tinkeri
 
 2. The [CrowdMC](https://github.com/CrowdMC/wiki) repository outlines very basic information for rookies, not necessarily least important, to gain an insight into the CrowdMC gameplay.
 
-3. The [CrowdMC/bugs](https://github.com/CrowdMC/bugs) repository is a read-only view of the bugs in CrowdMC.  The in-game server has the potential to report bugs directly to the VCS. This repository has existed for a long time, due to its one-sided nature, it was only recently opened.
+3. The [CrowdMC/bugs](https://github.com/CrowdMC/bugs) repository is a read-only view of the bugs in CrowdMC. The in-game server has the potential to report bugs directly to the VCS. This repository has existed for a long time, due to its one-sided nature, it was only recently opened.
 
 4. The [CrowdMC/lang](https://github.com/CrowdMC/lang) repository is likely one of the repos that most deserves a great deal of praise. The CrowdMC i18n internationalization update is known by only a small fraction of people and is the largest step forward to sustainability software brought to the world of Minecraft.  This update required making huge, unprecedented efforts in a work pipeline of more than a month.  Broadly speaking, this update allows you to chat, that is, receive and send messages, in your language.  Not only that, but the entire server is available in your desired language. This has never been done before, no doubt, it cost a fortune, and it did not have time to escalate. 1,467 strings conform the base language, with a reductionist approach.
 
@@ -69,7 +69,7 @@ The hierarchy consists of a complex structure, as the most infallible proof of o
 I spent thousands of hours working at CrowdMC.
 
 ### 2. How many people worked in CrowdMC?
-I was a solo developer. At times, I even moderated the server on my own, like when I didn't feel like moderators had access to built-in PM commands like / ban (a moderation system came upon later with proper logging). The server also ran out of my pocket.
+I was a solo developer. At times, I even moderated the server on my own, like when I didn't feel right moderators had access to built-in commands in PM like `/ban` (a moderation system came upon later with proper logging). The server also ran out of my pocket.
 
 ### 3. What coding tools to use for CrowdMC? 
 I coded in precarious conditions, due to simply never being able to afford a computer. This is a major setback for modern programmers who are fairly familiar with auto-completion tools. Believe me, if you have a computer and use a proper IDE, your fingers will thank you.
@@ -79,9 +79,9 @@ The value of CrowdMC is the legacy it leaves to succeeding servers. CrowdMC had 
 
 ### 5. What do I need to make my own CrowdMC?
 
-You will need a minimum knowledge of PHP programming, otherwise you will only suffer.  Alongside that, you will need experience in Linux systems to work with multiple environments, and experience in web application architectures to work with abstraction layers like APIs.
+You will need a minimum knowledge of PHP programming, otherwise you will only suffer. Alongside that, you will need experience in Linux systems to work with multiple environments, and experience in web application architectures to work with abstraction layers like APIs.
 
-Keep in mind, CrowdMC isn't your typical server where you can simply drag and drop plugins and voilà! We made CrowdMC a scalable and maintainable, so you may need to juggle to get things rolling! (We heralded this since archaic times.)
+Keep in mind, CrowdMC isn't your typical server where you can simply drag and drop plugins and voilà (we made CrowdMC a «scalable and maintainable server»), so you may need to juggle to get things rolling (we heralded this since archaic times.)
 
 ## Coding conventions
 This section comprises some of the coding and maintaining practices that we adopt to keep code maintainability and readability. This will serve as a reference for future contributors of this repo.
